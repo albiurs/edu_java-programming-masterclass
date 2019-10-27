@@ -1,0 +1,16 @@
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<!--
+    StackPane Layout
+    The order of the controls matters:
+    - the first control = on the bottom of the stack
+    - the last control = on top of the stack
+-->
+<StackPane fx:controller="sample.Controller"
+           xmlns:fx="http://javafx.com/fxml">
+    <Button text="Button One" style="-fx-background-color: red"/>
+    <Label text="The Second Label Text" style="-fx-background-color: blue"/>
+    <Label text="The Label Text" style="-fx-background-color: green"/>
+</StackPane>

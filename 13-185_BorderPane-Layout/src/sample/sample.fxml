@@ -1,0 +1,57 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+
+<!--
+    BorderPane Layout
+    Commonly used for top-level windows
+
+    top:        fullwidth/flex-height top area
+    bottom:     fullwidth/flex-height bottom area
+    left:       full-height/flex-width left area
+    right:      full-height/flex-width right area
+
+    BorderPane.alignment="CENTER": align the child element itself inside the parent area
+-->
+
+<?import javafx.scene.control.Label?>
+<BorderPane fx:controller="sample.Controller"
+            xmlns:fx="http://javafx.com/fxml">
+
+    <top>
+        <Label text="This label is in the top position"
+               BorderPane.alignment="CENTER"
+               style="-fx-border-style: dashed; -fx-border-width: 3; -fx-border-color: red"/>
+    </top>
+
+    <left>
+        <Label text="This label is in the left position"/>
+    </left>
+
+    <center>
+        <Label text="This label is in the center position and has really loooooooooooooooooooooooooong text"/>
+    </center>
+
+    <right>
+        <Label text="This label is in the right position"/>
+    </right>
+
+    <bottom>
+        <!-- Child-HBox -->
+        <?import javafx.scene.layout.HBox?>
+        <HBox spacing="10" alignment="center_right">
+            <padding>
+                <Insets bottom="10" right="10"/>
+            </padding>
+            <Button text="Ok" prefWidth="90"/>
+            <Button text="Cancel" prefWidth="90"/>
+            <Button text="Help" prefWidth="90"/>
+        </HBox>
+    </bottom>
+
+</BorderPane>
+
+
+
