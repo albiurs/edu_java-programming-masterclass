@@ -52,5 +52,13 @@ public class Main {
         System.out.println("Total healthy burger price: " + healthyBurger.itemizeHamburger());
         System.out.println();
 
+        DeluxeBurger deluxeBurger = new DeluxeBurger();
+        deluxeBurger.addHamburgerAddition1("should not be able to add this item", 123.45);
+        deluxeBurger.addHamburgerAddition2("should not be able to add this item", 123.45);
+        deluxeBurger.addHamburgerAddition3("should not be able to add this item", 123.45);
+        deluxeBurger.addHamburgerAddition4("should not be able to add this item", 123.45);
+        System.out.println("Total deluxe burger price: " + deluxeBurger.itemizeHamburger());
+        System.out.println();
+
     }
 }
