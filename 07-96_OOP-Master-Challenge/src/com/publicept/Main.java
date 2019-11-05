@@ -66,7 +66,7 @@ public class Main {
         System.out.println("Full price: $" + healthyBurger.getFullPrice());
         System.out.println();
 
-        DeluxBurger deluxBurger = new DeluxBurger("Delux Bread", "Pork");
+        DeluxBurger deluxBurger = new DeluxBurger("Deluxe Bread", "Pork");
         deluxBurger.pickAdditions("carrot", "onion", "lettuce",
                 "tomato");
 //        deluxBurger.printFullPrice();

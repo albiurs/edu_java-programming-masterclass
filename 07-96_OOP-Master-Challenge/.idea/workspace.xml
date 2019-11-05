@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42d4a43a-8053-4e5e-ac84-49ae7de5b016" name="Default Changelist" comment="" />
+    <list default="true" id="42d4a43a-8053-4e5e-ac84-49ae7de5b016" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/publicept/Main.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +85,7 @@
       <workItem from="1572016504613" duration="2025000" />
       <workItem from="1572698768589" duration="79000" />
       <workItem from="1572699064675" duration="315000" />
-      <workItem from="1572947457950" duration="762000" />
+      <workItem from="1572947457950" duration="1092000" />
     </task>
     <servers />
   </component>

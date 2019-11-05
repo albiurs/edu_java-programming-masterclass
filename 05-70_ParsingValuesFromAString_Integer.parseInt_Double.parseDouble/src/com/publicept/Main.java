@@ -13,10 +13,10 @@ public class Main {
         String numberAsString = "2019";
         System.out.println("numberAs String = " + numberAsString);
 
-        int numberInt = Integer.parseInt(numberAsString);   // Wrapper class Integer, class .parseInt
+        int numberInt = Integer.parseInt(numberAsString); // Wrapper class method Integer.parseInt > parse String to int
         System.out.println("number = " + numberInt);
 
-        numberAsString += 1;    // 1 converted to a String and appended > concatenated the two Strings.
+        numberAsString += 1;       // 1 converted to a String and appended > concatenated the two Strings.
         numberInt += 1;            // calculates result.
         System.out.println("numberAs String = " + numberAsString);  // numberAs String = 20191
         System.out.println("numberInt = " + numberInt);                   // number = 2020
