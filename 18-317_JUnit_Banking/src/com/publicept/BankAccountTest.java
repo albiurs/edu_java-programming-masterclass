@@ -46,25 +46,30 @@ class BankAccountTest {
 	}
 
 	/**
-	 * unsolved, doesn't work yet!!!
+	 * assertThrows() test
 	 */
 	@org.junit.jupiter.api.Test
 	public void withdraw_notBranch() {
 
 		assertThrows(IllegalArgumentException.class, () -> {
-			double balance = bankAccount.withdraw(600.00, false);
+			bankAccount.withdraw(600.00, false);
+			fail("Should have thrown an IllegalArgument");
 		});
 	}
 
 	/**
-	 * Dummy assertThrows test method
+	 * JUnit 3 example assertThrows() test (same test as above)
 	 */
 	@org.junit.jupiter.api.Test
-	public void whenDerivedExceptionThrown_thenAssertionSucceds() {
-		String test = null;
-		assertThrows(RuntimeException.class, () -> {
-			test.length();
-		});
+	public void withdraw_notBranch_jUnit3() {
+
+		try {
+			bankAccount.withdraw(600.00, false);
+			fail("Should have thrown an IllegalArgument");
+		} catch (IllegalArgumentException e) {
+			// no processing needed because exception is caught
+		}
+
 	}
 
 	@org.junit.jupiter.api.Test
@@ -87,9 +92,33 @@ class BankAccountTest {
 	}
 
 
-//	// silly hardcoded dumy test
-//	@org.junit.jupiter.api.Test
-//	public void dummyTest() {
-//		assertEquals(20, 20);
-//	}
+	/**
+	 * silly hardcoded dummy test for demonstration purpose
+ 	 */
+	@org.junit.jupiter.api.Test
+	public void dummyTest() {
+		assertEquals(20, 20);
+	}
+
+	/**
+	 * Dummy assertThrows() test method
+	 */
+	@org.junit.jupiter.api.Test
+	public void whenExceptionThrown_thenAssertionSucceeds() {
+		String test = null;
+		assertThrows(NullPointerException.class, () -> {
+			test.length();
+		});
+	}
+
+	/**
+	 * Dummy derived assertThrows() test method
+	 */
+	@org.junit.jupiter.api.Test
+	public void whenDerivedExceptionThrown_thenAssertionSucceds() {
+		String test = null;
+		assertThrows(RuntimeException.class, () -> {
+			test.length();
+		});
+	}
 }

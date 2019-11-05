@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42d4a43a-8053-4e5e-ac84-49ae7de5b016" name="Default Changelist" comment="" />
+    <list default="true" id="42d4a43a-8053-4e5e-ac84-49ae7de5b016" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../18-317_JUnit_Banking/src/com/publicept/BankAccountTestParametrized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18-317_JUnit_Banking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18-317_JUnit_Banking/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18-317_JUnit_Banking/src/com/publicept/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../18-317_JUnit_Banking/src/com/publicept/BankAccountTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +20,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1S6BCu6FD5n6B23oxFavfP27Fug" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -73,10 +83,26 @@
       <workItem from="1570874081084" duration="14812000" />
       <workItem from="1571288093425" duration="3063000" />
       <workItem from="1572016504613" duration="2025000" />
+      <workItem from="1572698768589" duration="79000" />
+      <workItem from="1572699064675" duration="315000" />
+      <workItem from="1572947457950" duration="576000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
