@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42d4a43a-8053-4e5e-ac84-49ae7de5b016" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-96_OOP-Master-Challenge_Solution/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-96_OOP-Master-Challenge_Solution/src/com/publicept/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="42d4a43a-8053-4e5e-ac84-49ae7de5b016" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +19,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1S6BCu6FD5n6B23oxFavfP27Fug" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -83,7 +82,7 @@
       <workItem from="1572016504613" duration="2025000" />
       <workItem from="1572698768589" duration="79000" />
       <workItem from="1572699064675" duration="315000" />
-      <workItem from="1572947457950" duration="576000" />
+      <workItem from="1572947457950" duration="762000" />
     </task>
     <servers />
   </component>
