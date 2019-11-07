@@ -24,6 +24,9 @@ public class ExceptionExample2_1_improved {
 
 	public static void main(String[] args) {
 
+		/**
+		 * This is the right place to handle the exceptions...
+		 */
 		try {
 			int result = divide();
 			System.out.println(result);
