@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9615d4fa-9c1b-4eca-b0b6-740cafc07ec2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/publicept/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-96_OOP-Master-Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-96_OOP-Master-Challenge/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../07-96_OOP-Master-Challenge/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-96_OOP-Master-Challenge/src/com/publicept/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="9615d4fa-9c1b-4eca-b0b6-740cafc07ec2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +63,7 @@
       <workItem from="1569996429031" duration="21000" />
       <workItem from="1572972845217" duration="35000" />
       <workItem from="1572972896309" duration="222000" />
+      <workItem from="1573111615055" duration="15000" />
     </task>
     <servers />
   </component>

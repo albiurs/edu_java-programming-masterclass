@@ -8,6 +8,24 @@ public class Main {
     public static void main(String[] args) {
 
         /**
+         * To exception types are defined in java.lang:
+         * 1. Exception (java.lang.Exception)
+         *           java.lang.Object
+         *              java.lang.Throwable
+         *                  java.lang.Exception
+         * 2. Runtime-Exception
+         *               java.lang.Object
+         *                  java.lang.Throwable
+         *                      java.lang.Exception
+         *                          java.lang.RuntimeException
+         *
+         * -> all exceptions are sub-classes of those two main exception types.
+         * -> Exception itself extends the class Throwable (java.lang.Throwable).
+         */
+
+
+
+        /**
          * Test error handling methods Nr. 1
          */
         System.out.println("Test error handling methods Nr. 1");
@@ -35,7 +53,7 @@ public class Main {
 
     /**
      * No error handling Nr. 1
-     * Intently creating an ArithmeticException
+     * Intently causing an ArithmeticException
      */
     private static int divide(int x, int y) {
         return x / y;
@@ -49,6 +67,7 @@ public class Main {
         if (y != 0) {
             return x / y;
         } else {
+            System.out.println("Forbidden operation: division by 0");
             return 0;
         }
     }
@@ -61,6 +80,7 @@ public class Main {
         try {
             return x / y;
         } catch (ArithmeticException e) {
+            System.out.println("Forbidden operation: division by 0");
             return 0;
         }
     }
@@ -87,6 +107,7 @@ public class Main {
         for(int i=0; i<input.length(); i++) {
             // Character > The {@code Character} class wraps a value of the primitive type {@code char} in an object.
             // Character.isDigit() > Determines if the specified character is a digit.
+            // input.charAT(i) > extracts the character at position i and returns the {@code char} value at the specified index.
             if(!Character.isDigit(input.charAt(i))) {
                 // if the character is not a digit...
                 isValid = false;
@@ -108,8 +129,11 @@ public class Main {
     public static int getIntEAFP() {
         Scanner s = new Scanner(System.in);
         System.out.print("Please enter an integer value: ");
+
         try {
             return s.nextInt();
+        // The following "catch (Exception e)" works, but is not recommended as it's unspecific.
+//        } catch (Exception e) {
         } catch (InputMismatchException e) {
             return 0;
         }
