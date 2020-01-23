@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8aa172e8-90ab-447a-8484-e1c8864d4d26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/publicept/BankAccountTestParametrized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/08-101_References-Types_vs_Value-Types.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/src/ch/publicept/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/08-98_Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/src/ch/publicept/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/src/ch/publicept/MainScannerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-122_Inner-and-Abstract-Classes-and-Interfaces-Interfaces/Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/14-229_Introduction_to_IO_import-files.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO_Basic-Input-&amp;-Output-including-java.util-Introduction-to-IO-Source-code/InputOutput.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-62_Switch_String.toLowerCase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-62_Switch_String.toLowerCase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/publicept/BankAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/publicept/BankAccountTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,6 +48,11 @@
   </component>
   <component name="ProjectId" id="1SptJYttAXpo6OIXdG5XOQhtycM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -48,19 +76,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="JUnit.BankAccountTestParametrized.deposit">
+  <component name="RunManager" selected="JUnit.BankAccountTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.publicept.Main" />
       <module name="18-317ff_JUnit_Banking" />
@@ -116,6 +132,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -131,6 +159,7 @@
       <workItem from="1572332501455" duration="5805000" />
       <workItem from="1572625117750" duration="157000" />
       <workItem from="1572697966062" duration="777000" />
+      <workItem from="1578137063775" duration="1624000" />
     </task>
     <servers />
   </component>
@@ -149,6 +178,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="283" key="GridCell.Tab.0.bottom" timestamp="1578149116159">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="283" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578149116159" />
+    <state width="1238" height="283" key="GridCell.Tab.0.center" timestamp="1578149116158">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="283" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578149116158" />
+    <state width="1238" height="283" key="GridCell.Tab.0.left" timestamp="1578149116158">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="283" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578149116158" />
+    <state width="1238" height="283" key="GridCell.Tab.0.right" timestamp="1578149116159">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="283" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578149116159" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/18_317_JUnit_Banking$BankAccountTest.ic" NAME="BankAccountTest Coverage Results" MODIFIED="1572333428611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -1,30 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c87762b4-a0c2-4a1d-bd3e-b9ac5037859a" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c87762b4-a0c2-4a1d-bd3e-b9ac5037859a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../03-24_PrimitiveTypes_ByteShortIntLong_Casting/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-24_PrimitiveTypes_ByteShortIntLong_Casting/03-24_primitiveTypes.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-27_PrimitiveTypes_Challenge/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-27_PrimitiveTypes_Challenge/03-27_primitiveTypes_challenge.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-28_PrimitiveTypes_FloatAndDouble/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-28_PrimitiveTypes_FloatAndDouble/03-28_primitiveTypes_float_double.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-30_PrimitveTypes_CharAndBoolean/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03-30_PrimitveTypes_CharAndBoolean/03-30_primitiveTypes_char_boolean.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-31_String.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/08-101_References-Types_vs_Value-Types.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-101_References-Types_vs_Value-Types/src/ch/publicept/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/08-98_Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/src/ch/publicept/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08-98_Arrays/src/ch/publicept/MainScannerExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../09-122_Inner-and-Abstract-Classes-and-Interfaces-Interfaces/Interfaces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/14-229_Introduction_to_IO_import-files.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO_Basic-Input-&amp;-Output-including-java.util-Introduction-to-IO-Source-code/InputOutput.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-24_PrimitiveTypes_ByteShortIntLong_Casting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-24_PrimitiveTypes_ByteShortIntLong_Casting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-24_PrimitiveTypes_ByteShortIntLong_Casting/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-24_PrimitiveTypes_ByteShortIntLong_Casting/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-27_PrimitiveTypes_Challenge/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-27_PrimitiveTypes_Challenge/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-27_PrimitiveTypes_Challenge/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-27_PrimitiveTypes_Challenge/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-28_PrimitiveTypes_FloatAndDouble/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-28_PrimitiveTypes_FloatAndDouble/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-28_PrimitiveTypes_FloatAndDouble/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-28_PrimitiveTypes_FloatAndDouble/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-30_PrimitveTypes_CharAndBoolean/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-30_PrimitveTypes_CharAndBoolean/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-30_PrimitveTypes_CharAndBoolean/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../03-30_PrimitveTypes_CharAndBoolean/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-62_Switch_String.toLowerCase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-62_Switch_String.toLowerCase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18-317_JUnit_Banking/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18-317_JUnit_Banking/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1QixKwHCMDTQEH7Aqg6Xt6AsNNG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -43,6 +92,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -56,10 +117,32 @@
       <workItem from="1569070561583" duration="22000" />
       <workItem from="1569218309098" duration="148000" />
       <workItem from="1569221767618" duration="98000" />
+      <workItem from="1579797400754" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1579797728492">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1579797728492" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1579797728491">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1579797728491" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1579797728491">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1579797728491" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1579797728492">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1579797728492" />
   </component>
 </project>

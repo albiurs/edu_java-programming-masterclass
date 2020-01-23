@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="278fe294-db26-45bf-a851-ffaf3ab19ab4" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="278fe294-db26-45bf-a851-ffaf3ab19ab4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/14-229_Introduction_to_IO_import-files.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RJe1YMsHizF28NRDDc1EjPwjAV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -16,18 +36,6 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -45,6 +53,18 @@
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -66,6 +86,7 @@
       <workItem from="1570877364640" duration="598000" />
       <workItem from="1571288100381" duration="644000" />
       <workItem from="1572016511557" duration="469000" />
+      <workItem from="1577119193417" duration="694000" />
     </task>
     <servers />
   </component>
