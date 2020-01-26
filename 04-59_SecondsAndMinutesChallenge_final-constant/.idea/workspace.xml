@@ -1,30 +1,117 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23226977-86b2-4d1b-8c26-baa57ceaf5a2" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="23226977-86b2-4d1b-8c26-baa57ceaf5a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/04-43_keyword-expressions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/04-45_if-then-else.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/04-54_SpeedConverter_Math.round.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/exportToHTML/Main.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter_modulo/04-56_CodingExercise2_MegabBytesConverter_modulo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter_modulo/04-56_MB-Converter_modulo.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/04-56_LeapYearCalculator.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator_casting/04-56_CodingExercise5_DecimalComperator_casting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator_casting/04-56_DecimalComperator_casting.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/04-56_EqualSumChecker.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-57_MethodOverloading/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-57_MethodOverloading/04-57_MethodOverloading.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-59_final_CONSTANT.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/04-60_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/04-09_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/04-09_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/src/com/publicept/keywordsandexpressions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/src/com/publicept/keywordsandexpressions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-44_StatementsWhitespaceAndIndention/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-44_StatementsWhitespaceAndIndention/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/src/com/publicept/keywordsandexpressions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/src/com/publicept/keywordsandexpressions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-47_Methods/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-47_Methods/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-47_Methods/src/com/publicept/JavaProgrammingMasterclass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-47_Methods/src/com/publicept/JavaProgrammingMasterclass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/src/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-54_CodingExercise1_SpeedConverter_Math.round/src/SpeedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/04-56_CodingExercise2_MegabBytesConverter.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise2_MegabBytesConverter/src/MegaBytesConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise3_BarkingDog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise3_BarkingDog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/src/LeapYear.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/src/LeapYear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise4_LeapYearCalculator/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/04-56_CodingExercise5_DecimalComperator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/src/DecimalComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise5_DecimalComperator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/src/EqualSumChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/src/EqualSumChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise6_EqualSumChecker/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-56_CodingExercise7_TeenNumberChecker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-56_CodingExercise7_TeenNumberChecker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-57_MethodOverloading/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-57_MethodOverloading/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-57_MethodOverloading/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-57_MethodOverloading/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-24_primitiveTypes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-27_primitiveTypes_challenge.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-28_primitiveTypes_float_double.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-30_primitiveTypes_char_boolean.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-31_String.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-32_Operators_TernaryOperator.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/04-09_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RHrcXNVQOKJFyDz1BfKYEZ1BPa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -33,53 +120,6 @@
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="04-59_SecondsAndMinutesChallenge_final-constant" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="04-59_SecondsAndMinutesChallenge_final-constant" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,10 +142,14 @@
       <updated>1569334941889</updated>
       <workItem from="1569334946568" duration="3158000" />
       <workItem from="1569338636020" duration="23000" />
+      <workItem from="1580041216949" duration="553000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

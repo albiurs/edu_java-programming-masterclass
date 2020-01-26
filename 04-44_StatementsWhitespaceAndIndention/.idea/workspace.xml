@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fe5a7cd-7c1a-4770-bf3d-9f5e0f6a078d" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="2fe5a7cd-7c1a-4770-bf3d-9f5e0f6a078d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/04-43_keyword-expressions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/04-60_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/04-09_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/04-09_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/src/com/publicept/keywordsandexpressions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/src/com/publicept/keywordsandexpressions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-24_primitiveTypes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-27_primitiveTypes_challenge.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-28_primitiveTypes_float_double.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-30_primitiveTypes_char_boolean.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-31_String.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-32_Operators_TernaryOperator.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/04-09_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,24 +52,21 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1REAo3tItrafHCUJoQhGEIIWSQC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -70,6 +97,7 @@
       <updated>1569222052345</updated>
       <workItem from="1569222056153" duration="9000" />
       <workItem from="1569222100050" duration="1840000" />
+      <workItem from="1579957152093" duration="60000" />
     </task>
     <servers />
   </component>

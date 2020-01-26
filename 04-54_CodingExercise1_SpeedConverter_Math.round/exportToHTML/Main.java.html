@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>Main.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #629755; font-style: italic;}
+.s1 { color: #629755; font-weight: bold; font-style: italic;}
+.s2 { color: #a9b7c6;}
+.s3 { color: #cc7832;}
+.s4 { color: #808080;}
+.s5 { color: #6897bb;}
+.s6 { color: #6a8759;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Main.java</font>
+</center></td></tr></table>
+<pre><span class="s0">/**</span>
+ <span class="s0">* Main</span>
+ <span class="s0">*</span>
+ <span class="s0">* </span><span class="s1">@author </span><span class="s0">created by Urs Albisser, on 2020-01-26</span>
+ <span class="s0">* </span><span class="s1">@version </span><span class="s0">0.1</span>
+ <span class="s0">*/</span>
+<span class="s3">public class </span><span class="s2">Main {</span>
+
+	<span class="s3">public static void </span><span class="s2">main(String[] args) {</span>
+
+<span class="s4">//      double miles = SpeedConverter.toMilesPerHour(10.5);</span>
+<span class="s4">//      System.out.println(&quot;Miles = &quot; + miles);</span>
+
+		<span class="s2">SpeedConverter.printConversion(</span><span class="s5">10.5</span><span class="s2">)</span><span class="s3">; </span><span class="s4">// 10.5 km/h = 7 mi/h</span>
+	<span class="s2">}</span>
+<span class="s2">}</span>
+
+
+
+<span class="s0">/**</span>
+ <span class="s0">* SpeedConverter</span>
+ <span class="s0">* toMilesPerHour(double kilometersPerHour)</span>
+ <span class="s0">* printConversion(double kilometersPerHour)</span>
+ <span class="s0">*</span>
+ <span class="s0">* Convert a speed in km/h into mi/h and round the result.</span>
+ <span class="s0">* Print the converted result.</span>
+ <span class="s0">*</span>
+ <span class="s0">* </span><span class="s1">@author </span><span class="s0">created by Urs Albisser, on 2020-01-26</span>
+ <span class="s0">* </span><span class="s1">@version </span><span class="s0">0.1</span>
+ <span class="s0">*/</span>
+<span class="s3">class </span><span class="s2">SpeedConverter {</span>
+
+	<span class="s0">/**</span>
+	 <span class="s0">* toMilesPerHour()</span>
+	 <span class="s0">* Convert a speed in km/h into miles and round the result</span>
+	 <span class="s0">* </span><span class="s1">@param </span><span class="s0">kilometersPerHour	value in km/h</span>
+	 <span class="s0">* </span><span class="s1">@return	</span><span class="s0">rounded result in miles</span>
+	 <span class="s0">*/</span>
+	<span class="s3">public static long </span><span class="s2">toMilesPerHour(</span><span class="s3">double </span><span class="s2">kilometersPerHour) {</span>
+
+		<span class="s3">if</span><span class="s2">(kilometersPerHour &lt; </span><span class="s5">0</span><span class="s2">) {</span>
+			<span class="s3">return </span><span class="s2">-</span><span class="s5">1</span><span class="s3">;</span>
+		<span class="s2">}</span>
+
+		<span class="s4">// 'milesPerHour' is correct but redundant</span>
+<span class="s4">//      long milesPerHour = Math.round(kilometersPerHour / 1.609);</span>
+<span class="s4">//      return milesPerHour;</span>
+
+		<span class="s4">// best practice</span>
+		<span class="s4">// Math.round: Math is built-in class of java</span>
+		<span class="s3">return </span><span class="s2">Math.round(kilometersPerHour / </span><span class="s5">1.609</span><span class="s2">)</span><span class="s3">;</span>
+	<span class="s2">}</span>
+
+
+	<span class="s0">/**</span>
+	 <span class="s0">* printConversion()</span>
+	 <span class="s0">* </span><span class="s1">@param </span><span class="s0">kilometersPerHour Speed in km/h to be converted.</span>
+	 <span class="s0">*/</span>
+	<span class="s3">public static void </span><span class="s2">printConversion(</span><span class="s3">double </span><span class="s2">kilometersPerHour) {</span>
+
+		<span class="s3">if</span><span class="s2">(kilometersPerHour &lt; </span><span class="s5">0</span><span class="s2">) {</span>
+			<span class="s2">System.out.println(</span><span class="s6">&quot;Invalid Value&quot;</span><span class="s2">)</span><span class="s3">;</span>
+		<span class="s2">} </span><span class="s3">else </span><span class="s2">{</span>
+			<span class="s4">// convert km/h to mi/h</span>
+			<span class="s3">long </span><span class="s2">milesPerHour = toMilesPerHour(kilometersPerHour)</span><span class="s3">;</span>
+			<span class="s2">System.out.println(kilometersPerHour + </span><span class="s6">&quot; km/h = &quot; </span><span class="s2">+</span>
+					<span class="s2">milesPerHour + </span><span class="s6">&quot; mi/h&quot;</span><span class="s2">)</span><span class="s3">;</span>
+		<span class="s2">}</span>
+	<span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>

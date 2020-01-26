@@ -1,12 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ebce2bf-4c73-48a7-8495-dcfff4f52f4c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="6ebce2bf-4c73-48a7-8495-dcfff4f52f4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/04-43_keyword-expressions.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/04-45_if-then-else.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-54_SpeedConverter_Math.round.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exportToHTML/Main.java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/04-60_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/04-09_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/04-09_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-09_CodingExercise09_MinutesToYearsAndDatesCalculator/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/src/com/publicept/keywordsandexpressions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-43_KeywordsAndExpressions/src/com/publicept/keywordsandexpressions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-44_StatementsWhitespaceAndIndention/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-44_StatementsWhitespaceAndIndention/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/src/com/publicept/keywordsandexpressions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-45_IfThenElse_CodeBlocks/src/com/publicept/keywordsandexpressions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-47_Methods/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-47_Methods/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-47_Methods/src/com/publicept/JavaProgrammingMasterclass/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-47_Methods/src/com/publicept/JavaProgrammingMasterclass/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpeedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-24_primitiveTypes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-27_primitiveTypes_challenge.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-28_primitiveTypes_float_double.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-30_primitiveTypes_char_boolean.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-31_String.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/03-32_Operators_TernaryOperator.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdf-export/04-09_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -15,27 +62,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1REiaw5V0iK8rgaugXqYCFSCSPh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -65,10 +113,36 @@
       <workItem from="1569242862593" duration="19000" />
       <workItem from="1569243003490" duration="10000" />
       <workItem from="1569244154430" duration="36000" />
+      <workItem from="1580035283061" duration="1056000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="77" key="#Project_Structure" timestamp="1580036105117">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="240" y="77" key="#Project_Structure/0.23.1280.777@0.23.1280.777" timestamp="1580036105117" />
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1580036350647">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580036350647" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1580036350646">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580036350646" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1580036350645">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580036350645" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1580036350646">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580036350646" />
   </component>
 </project>

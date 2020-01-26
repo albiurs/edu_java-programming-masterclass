@@ -1,12 +1,14 @@
-import java.util.concurrent.LinkedTransferQueue;
-
+/**
+ * Main
+ */
 public class Main {
 
     public static void main(String[] args) {
-        int newScore = calculateScore("Urs", 500);
+
+        int newScore = Score.calculateScore("Urs", 500);
         System.out.println("New score is " + newScore);
-        calculateScore(75);
-        calculateScore();
+        Score.calculateScore(75);
+        Score.calculateScore();
 
 
         /**
@@ -41,28 +43,39 @@ public class Main {
         double feet = 1.00d;
         double inches = 1.00d;
 
-        double centimeters = calcFeetAndInchesToCentimeters(feet, inches);
+        double centimeters = CentimetersFromFeet.calcFeetAndInchesToCentimeters(feet, inches);
         if (centimeters < 0.0) {
             System.out.println("invalid parameters");
         }
 
         inches = 100.00d;
-        centimeters = calcFeetAndInchesToCentimeters(inches);
+        centimeters = CentimetersFromFeet.calcFeetAndInchesToCentimeters(inches);
         if (centimeters < 0.00) {
             System.out.println("invalid parameters");
         }
     }
+}
+
+
+
+/**
+ * CentimetersFromFeet
+ *
+ * calcFeetAndInchesToCentimeters(double inches)
+ * calcFeetAndInchesToCentimeters(double feet, double inches)
+ */
+class CentimetersFromFeet {
 
 
     /**
-     * Calculate centimeters from inches
+     * Calculate centimeters from inches(one param only)
      * @param inches
      * @return
      */
     public static double calcFeetAndInchesToCentimeters(double inches) {
         if (inches >= 0) {
-            double feet = (int) inches / 12;
-            double remainingInches = (int) inches % 12.00d;
+            double feet = (int) inches / 12; // (cast double to int)
+            double remainingInches = (int) inches % 12.00d; // (cast double to int)
             System.out.println(inches + " inches is equal to " + feet + " feet and " + remainingInches + " inches.");
             return calcFeetAndInchesToCentimeters(feet, remainingInches);
         }
@@ -71,26 +84,38 @@ public class Main {
 
 
     /**
-     * Calculate centimeters from feet and inches
-     * @param feet
-     * @param inches
-     * @return
+     * calcFeetAndInchesToCentimeters(two params - overloaded)
+     *
+     * @param feet feet
+     * @param inches inches
+     * @return cm
      */
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
         if (feet >= 0 && (inches >= 0 && inches < 12)) {
             inches += 12 * feet;
             double  centimeters = 2.54 *inches;
-            //System.out.println(centimeters);
             System.out.println(feet + " ft + " + inches + " in = " + centimeters + " cm");
             return centimeters;
         } else {
             return -1.00d;
         }
     }
+}
+
+
+
+/**
+ * Score
+ *
+ * calculateScore()
+ * calculateScore(int score)
+ * calculateScore(String playerName, int score)
+ */
+class Score {
 
 
     /**
-     * Calculate Score (2 Param)
+     * Calculate Score (2 params)
      * @param playerName
      * @param score
      * @return
@@ -121,6 +146,6 @@ public class Main {
         System.out.println("No player name, no player score");
         return 0;
     }
-
-
 }
+
+

@@ -1,8 +1,23 @@
+/**
+ * Main
+ *
+ * main()
+ * getDurationString(int seconds)
+ * getDurationString(int minutes, int seconds)
+ */
 public class Main {
 
-    // define constants with final
-    private static final String INVALID_VALUE_MESSAGE = "Invalid value!";
 
+    // == constants ==
+    private static final String INVALID_VALUE_MESSAGE = "Invalid value!"; // define constants with final and UPPERCASE
+
+
+
+    // == public methods ==
+    /**
+     * main()
+     * @param args
+     */
     public static void main(String[] args) {
 
         System.out.println(getDurationString(1, 1));
@@ -11,12 +26,15 @@ public class Main {
 
 
     /**
-     * Get Duration String in minutes and seconds
-     * @param minutes
-     * @param seconds
-     * @return
+     * getDurationString()
+     * Get duration String from minutes and seconds.
+     *
+     * @param minutes min
+     * @param seconds sec
+     * @return duration String in minutes and seconds
      */
     public static String getDurationString(int minutes, int seconds) {
+
         if(minutes >= 0 && seconds >= 0 && seconds <= 59) {
             int hours = minutes / 60;
             String hourString;
@@ -50,9 +68,11 @@ public class Main {
 
 
     /**
-     * Get duraton String in hours, minutes and seconds (1 Param)
-     * @param seconds
-     * @return
+     * getDurationString()
+     * Get duration String from hours, minutes and seconds (1 Param).
+     *
+     * @param seconds sec
+     * @return duration String in hours, minutes and seconds
      */
     public static String getDurationString(int seconds) {
         if(seconds >= 0) {

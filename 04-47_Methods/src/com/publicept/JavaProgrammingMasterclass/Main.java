@@ -9,7 +9,7 @@ public class Main {
         int levelCompleted = 5;
         int bonus = 100;
 
-        int highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        int highScore = calculateFinalScore(gameOver, score, levelCompleted, bonus);
                 // the method's return value is saved to variable highScore
         System.out.println("Final score: " + highScore);
 
@@ -19,7 +19,7 @@ public class Main {
         levelCompleted = 8;
         bonus = 200;
 
-        highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        highScore = calculateFinalScore(gameOver, score, levelCompleted, bonus);
         System.out.println("Final score: " + highScore);
 
 
@@ -70,12 +70,12 @@ public class Main {
      * @param bonus
      * @return
      */
-    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateFinalScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
         if(gameOver) {
-            int finaleScore = score + (levelCompleted * bonus);
-            finaleScore += 2000;
-            return finaleScore;
+            int finalScore = score + (levelCompleted * bonus);
+            finalScore += 2000;
+            return finalScore;
         }
 
         return -1;  // -1 is conventionally used to return an error in programming terms.
