@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="434e1c7a-ebe3-486e-a6c6-ecadc3b8f1ad" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="434e1c7a-ebe3-486e-a6c6-ecadc3b8f1ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-60_AreaCalc_Math.pow.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AreaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,23 +20,24 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RHzGPN2LfZUWqMZ5SJyppBAFEM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -62,10 +68,32 @@
       <updated>1569338712997</updated>
       <workItem from="1569338715138" duration="1732000" />
       <workItem from="1569340631786" duration="75000" />
+      <workItem from="1580042673587" duration="1090000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1580043854863">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580043854863" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1580043854862">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580043854862" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1580043854862">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580043854862" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1580043854863">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580043854863" />
   </component>
 </project>

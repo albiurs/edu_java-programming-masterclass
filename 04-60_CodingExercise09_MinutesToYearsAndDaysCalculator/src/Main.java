@@ -12,6 +12,8 @@ public class Main {
 
 /**
  * MinutesToYearsDaysCalculator
+ *
+ * printYearsAndDays(long minutes)
  */
 class MinutesToYearsDaysCalculator {
 
@@ -23,7 +25,7 @@ class MinutesToYearsDaysCalculator {
     public static void printYearsAndDays(long minutes) {
 
         long days = minutes / (60 * 24);
-        long remainingDays = days % 365;
+        long remainingDays = days % 365; // modulus
         long years = days / 365;
 
         if(minutes < 0) {

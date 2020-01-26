@@ -1,25 +1,31 @@
 package com.publicept;
 
+/**
+ * Main
+ */
 public class Main {
 
+    /**
+     * main()
+     * @param args args
+     */
     public static void main(String[] args) {
 
 
-        /**
+        /*
          * If-else example
          */
-//        int value = 2;
-//        if(value == 1) {
-//            System.out.println("value was 1");
-//        } else if(value == 2) {
-//            System.out.println("value was 2");
-//        } else {
-//            System.out.println("was not 1 or 2");
-//        }
+        int value = 2;
+        if(value == 1) {
+            System.out.println("value was 1");
+        } else if(value == 2) {
+            System.out.println("value was 2"); // value was 2
+        } else {
+            System.out.println("was not 1 or 2");
+        }
 
 
-
-        /**
+        /*
          * Switch-Example
          *
          * In Java versions up to v7, only primitive Types were supported.
@@ -38,8 +44,8 @@ public class Main {
 
                 // shortcut for testing several cases
             case 3: case 4: case 5:
-                System.out.println("was a 3 or 4 or 5");
-                System.out.println("actually it was a " + switchValue);
+                System.out.println("was a 3 or 4 or 5"); // was a 3 or 4 or 5
+                System.out.println("actually it was a " + switchValue); // actually it was a 3
                 break;
 
             default:
@@ -49,8 +55,8 @@ public class Main {
 
 
 
-        /**
-         * Challenge: switch with cahr
+        /*
+         * Challenge: switch with char
          */
         char myChar = 'D';
 
@@ -64,7 +70,7 @@ public class Main {
                 break;
 
             case 'C': case 'D': case 'E':
-                System.out.println("was " + myChar);
+                System.out.println("was " + myChar); // was D
                 break;
 
             default:
@@ -73,22 +79,23 @@ public class Main {
         }
 
 
-        /**
+        /*
          * Switch with Strings
          */
         String month = "January";
+        String monthInLowerCase = month.toLowerCase(); // String.toLowerCase() -> convert String to lower case
 
         // String.toLowerCase(): Method of the class String to convert the String to lower case.
-        switch (month.toLowerCase()) {
+        switch (monthInLowerCase) {
             case "january":
-                System.out.println("Jan");
+                System.out.println("January"); // January
                 break;
             case "february":
-                System.out.println("Feb");
+                System.out.println("February");
                 break;
             default:
                 System.out.println("not sure");
+                break;
         }
-
     }
 }

@@ -2,17 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="278fe294-db26-45bf-a851-ffaf3ab19ab4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14-229_Introduction_to_IO/14-229_Introduction_to_IO_import-files.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/04-60_AreaCalc_Math.pow.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDaysCalculator/04-60_CodingExercise09_MinutesToYearsAndDaysCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/04-60_EqualtyPrinter.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05-62_Switch_String.toLowerCase.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/AreaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/04-60_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/04-60_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/IntEqualityPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/IntEqualityPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise11_PlayingCat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise11_PlayingCat/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../13-180ff_HelloWorldFX/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/publicept/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,13 +38,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1RJe1YMsHizF28NRDDc1EjPwjAV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -87,10 +105,32 @@
       <workItem from="1571288100381" duration="644000" />
       <workItem from="1572016511557" duration="469000" />
       <workItem from="1577119193417" duration="694000" />
+      <workItem from="1580044774881" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1580045429017">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580045429017" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1580045429016">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580045429016" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1580045429016">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580045429016" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1580045429017">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580045429017" />
   </component>
 </project>

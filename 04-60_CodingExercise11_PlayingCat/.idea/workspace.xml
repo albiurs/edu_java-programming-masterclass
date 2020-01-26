@@ -1,8 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe077bce-f021-4937-9898-25958afbfe8b" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="fe077bce-f021-4937-9898-25958afbfe8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/04-60_AreaCalc_Math.pow.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDaysCalculator/04-60_CodingExercise09_MinutesToYearsAndDaysCalculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/04-60_EqualtyPrinter.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/AreaCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/AreaCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise08_AreaCalculator_Math.pow/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/04-60_CodingExercise09_MinutesToYearsAndDatesCalculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/04-60_MinutesToYearsDaysCalculatro.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise09_MinutesToYearsAndDatesCalculator/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/IntEqualityPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/IntEqualityPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../04-60_CodingExercise10_EqualtyPrinter/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +37,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RIEpw02B0I2xEV72mnjbskBmi4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -61,6 +81,7 @@
       <updated>1569346395652</updated>
       <workItem from="1569346399037" duration="658000" />
       <workItem from="1569387354073" duration="301000" />
+      <workItem from="1580044739586" duration="14000" />
     </task>
     <servers />
   </component>
