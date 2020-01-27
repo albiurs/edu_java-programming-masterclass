@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0924e5c5-ca74-41d3-a164-5f11f9878ef8" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="0924e5c5-ca74-41d3-a164-5f11f9878ef8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../05-63_ChallengeDayOfTheWeek/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-63_ChallengeDayOfTheWeek/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-63_CodingExercise12_NumberInWord/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-63_CodingExercise12_NumberInWord/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +18,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RL1wjHdd2VdKE6tfP4v898aOWI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -63,10 +64,34 @@
       <workItem from="1569473955217" duration="674000" />
       <workItem from="1569561325306" duration="16000" />
       <workItem from="1569561381303" duration="3005000" />
+      <workItem from="1580047427257" duration="168000" />
+      <workItem from="1580106130976" duration="845000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1580107689861">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580107689861" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1580107689860">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580107689860" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1580107689860">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580107689860" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1580107689861">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580107689861" />
+    <state x="404" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1580106145257">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="404" y="195" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1580106145257" />
   </component>
 </project>
