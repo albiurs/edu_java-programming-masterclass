@@ -1,16 +1,31 @@
 package com.publicept;
 
 /**
+ * Dog extends Animal
  * "extends" keyword: inherit from a super class (=parent-class)
+ *
+ * Dog(String name, int size, int weight, int eyes, int legs, int tail, int teeth, String coat)
+ *
+ * chew()
+ * eat()
+ * walk()
+ * run()
+ * moveLegs(int speed)
+ * move(int speed)
  */
 public class Dog extends Animal {
 
+
+	// == fields ==
 	private int eyes;
 	private int legs;
 	private int tail;
 	private int teeth;
 	private String coat;
 
+
+
+	// == constructors ==
 	/**
 	 * Dog.Dog()
 	 * @param name
@@ -32,13 +47,9 @@ public class Dog extends Animal {
 		this.coat = coat;
 	}
 
-	/**
-	 * Dog.chew()
-	 */
-	private void chew() {
-		System.out.println("Dog.chew() called");
-	}
 
+
+	// == override methods ==
 	/**
 	 * Dog.eat()
 	 * -> Override
@@ -48,6 +59,28 @@ public class Dog extends Animal {
 		System.out.println("Dog.eat() called");
 		chew();
 		super.eat();
+	}
+
+
+	/**
+	 * Dog.move()
+	 * @param speed
+	 */
+	@Override
+	public void move(int speed) {
+		System.out.println("Dog.move() called");
+		moveLegs(speed);
+		super.move(speed);
+	}
+
+
+
+	// == public methods ==
+	/**
+	 * Dog.chew()
+	 */
+	public void chew() {
+		System.out.println("Dog.chew() called");
 	}
 
 
@@ -67,26 +100,6 @@ public class Dog extends Animal {
 	}
 
 
-//	/**
-//	 * Dog.walk()
-//	 * -> super.move();
-//	 */
-//	public void walk() {
-//		System.out.println("Dog.walk() called -> super.move(5)");
-//		super.move(5);
-//	}
-
-
-//	/**
-//	 * Dog.run()
-//	 * -> move();
-//	 */
-//	public void run() {
-//		System.out.println("Dog.run() called -> move(10)");
-//		move(10);
-//	}
-
-
 	/**
 	 * Dog.run()
 	 * -> super.move();
@@ -97,18 +110,11 @@ public class Dog extends Animal {
 	}
 
 
-	private void moveLegs(int speed) {
-		System.out.println("Dog.moveLegs() called");
-	}
-
 	/**
-	 * Dog.move()
+	 * moveLegs()
 	 * @param speed
 	 */
-	@Override
-	public void move(int speed) {
-		System.out.println("Dog.move() called");
-		moveLegs(speed);
-		super.move(speed);
+	private void moveLegs(int speed) {
+		System.out.println("Dog.moveLegs() called");
 	}
 }

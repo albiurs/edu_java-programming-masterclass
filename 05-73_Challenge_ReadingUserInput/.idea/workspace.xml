@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c439281f-1b1d-446a-b485-d5f06b05cb91" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c439281f-1b1d-446a-b485-d5f06b05cb91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/05-67_while_do-while_break_continue.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/05-69_GreatestCommonDivisor.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/05-71_Scanner-issue-handling.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-66_Challenge_Sum3And5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-66_Challenge_Sum3And5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_Challenge_DigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_Challenge_DigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise15_NumberPalindrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise15_NumberPalindrome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise16_FirstAndLastDigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise16_FirstAndLastDigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise17_EvenDigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise17_EvenDigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise18_SharedDigit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise18_SharedDigit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise19_LastDigitChecker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise19_LastDigitChecker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_AllFactors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_AllFactors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/src/com/publicept/PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/src/com/publicept/PerfectNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise23_NumberToWords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise23_NumberToWords/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-70_CodingExerciese24_FlourPackProblem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-70_CodingExerciese24_FlourPackProblem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/publicept/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,23 +39,20 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="176" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RYTCronqWiti2sEEsNDgvGiNnv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -58,11 +83,30 @@
       <updated>1569842904188</updated>
       <workItem from="1569842907730" duration="2831000" />
       <workItem from="1569850574323" duration="3000" />
+      <workItem from="1580122024405" duration="145000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom" timestamp="1580122169424">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580122169424" />
+    <state width="1238" height="197" key="GridCell.Tab.0.center" timestamp="1580122169423">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580122169423" />
+    <state width="1238" height="197" key="GridCell.Tab.0.left" timestamp="1580122169423">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580122169423" />
+    <state width="1238" height="197" key="GridCell.Tab.0.right" timestamp="1580122169424">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1238" height="197" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580122169424" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/05_73_ReadingUserInputChallenge$Main.ic" NAME="Main Coverage Results" MODIFIED="1569843662947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

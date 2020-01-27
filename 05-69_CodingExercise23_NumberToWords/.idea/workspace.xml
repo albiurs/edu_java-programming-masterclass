@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6462e01-163f-4b4d-a8d7-d43e738a194f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="a6462e01-163f-4b4d-a8d7-d43e738a194f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/05-67_while_do-while_break_continue.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/05-69_GreatestCommonDivisor.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-66_Challenge_Sum3And5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-66_Challenge_Sum3And5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_Challenge_DigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_Challenge_DigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise15_NumberPalindrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise15_NumberPalindrome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise16_FirstAndLastDigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise16_FirstAndLastDigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise17_EvenDigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise17_EvenDigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise18_SharedDigit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise18_SharedDigit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise19_LastDigitChecker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise19_LastDigitChecker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_AllFactors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_AllFactors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/src/com/publicept/PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/src/com/publicept/PerfectNumber.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +35,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RTPVuUnqgiq3PXOPYmVrPCamke" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -61,6 +79,7 @@
       <updated>1569688139512</updated>
       <workItem from="1569688150864" duration="7109000" />
       <workItem from="1569737099175" duration="126000" />
+      <workItem from="1580120980335" duration="22000" />
     </task>
     <servers />
   </component>

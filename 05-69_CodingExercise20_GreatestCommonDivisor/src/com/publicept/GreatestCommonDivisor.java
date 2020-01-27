@@ -1,10 +1,21 @@
 package com.publicept;
 
+/**
+ * GreatestCommonDivisor
+ *
+ * getGreatestCommonDivisor(int first, int second)
+ */
 public class GreatestCommonDivisor {
 
-	public static int getGreatestCommonDivisor(int first, int second) {
+	/**
+	 * getGreatestCommonDivisor()
+	 * @param firstNumber first number to be compared
+	 * @param secondNumber second number to be compared
+	 * @return greatest common divisor GCD
+	 */
+	public static int getGreatestCommonDivisor(int firstNumber, int secondNumber) {
 
-		if(first < 10 || second < 10) {
+		if(firstNumber < 10 || secondNumber < 10) {
 			return -1;
 		}
 
@@ -12,24 +23,24 @@ public class GreatestCommonDivisor {
 		int remainderFirst = 0;
 		int greatestCommonDivisor = 0;
 
-		while (countFirst <= first) {
+		while (countFirst <= firstNumber) {
 
 			countFirst++;
-			remainderFirst = first % countFirst;
-			System.out.println("count first " + countFirst);
-			System.out.println("remainder first " + remainderFirst);
+			remainderFirst = firstNumber % countFirst;
+			System.out.println("count firstNumber " + countFirst);
+			System.out.println("remainder firstNumber " + remainderFirst);
 
 			if (remainderFirst == 0) {
 
 				int countSecond = 0;
 				int remainderSecond = 0;
 
-				while (countSecond <= second) {
+				while (countSecond <= secondNumber) {
 
 					countSecond++;
-					remainderSecond = second % countSecond;
-					System.out.println("count second " + countSecond);
-					System.out.println("remainder second " + remainderSecond);
+					remainderSecond = secondNumber % countSecond;
+					System.out.println("count secondNumber " + countSecond);
+					System.out.println("remainder secondNumber " + remainderSecond);
 
 					if (remainderSecond == 0) {
 						if (countFirst == countSecond) {
@@ -41,9 +52,6 @@ public class GreatestCommonDivisor {
 			}
 		}
 
-		System.out.println("gcd " + greatestCommonDivisor);
 		return greatestCommonDivisor;
-
-
 	}
 }

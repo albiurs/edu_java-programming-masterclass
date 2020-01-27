@@ -1,8 +1,29 @@
 package com.publicept;
 
+/**
+ * BankAccount
+ *
+ * BankAccount()
+ * BankAccount(int accountNumber, String customerName)
+ * BankAccount(int accountNumber, double balance, String customerName, String email, String phoneNumber)
+ *
+ * depositFund(double deposit)
+ * withdraw(double withdraw)
+ *
+ * getAccountNumber()
+ * setAccountNumber(int accountNumber)
+ * getBalance()
+ * setBalance(double balance)
+ * getCustomerName()
+ * setCustomerName(String customerName)
+ * getEmail()
+ * setEmail()
+ * getPhoneNumber()
+ * setPhoneNumber()
+ */
 public class BankAccount {
 
-	/**
+	/*
 	 * Challenge: Bank Account
 	 */
 	// Create a new class for a bank account
@@ -24,6 +45,7 @@ public class BankAccount {
 	private String phoneNumber;
 
 
+	// == constructors ==
 	/**
 	 * Empty constructor
 	 */
@@ -69,6 +91,7 @@ public class BankAccount {
 	}
 
 
+	// == public methods ==
 	public void depositFund(double deposit) {
 		this.balance += deposit;
 		System.out.println("Deposit: " + deposit);
@@ -89,6 +112,7 @@ public class BankAccount {
 	}
 
 
+	// == getters & setters ==
 	public int getAccountNumber() {
 		return accountNumber;
 	}
@@ -128,5 +152,4 @@ public class BankAccount {
 	public void setPhoneNumber(String phoneNumber) {
 		this.phoneNumber = phoneNumber;
 	}
-
 }

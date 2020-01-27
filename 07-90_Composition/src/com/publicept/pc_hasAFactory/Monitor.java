@@ -1,11 +1,20 @@
 package com.publicept.pc_hasAFactory;
 
+/**
+ * Monitor
+ * Monitor(String model, String manufacturer, int size, Resolution nativeResolution)
+ *
+ * drawPixelAt(int x, int y, String color)
+ * getModel()
+ * getManufacturer()
+ * getSize()
+ */
 public class Monitor {
 
 	private String model;
 	private String manufacturer;
 	private int size;
-	/**
+	/*
 	 * Composition:
 	 * -> hasA relationship!
 	 */

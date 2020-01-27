@@ -1,5 +1,11 @@
 package com.publicept;
 
+/**
+ * Animal
+ *
+ * eat()
+ * move(int speed)
+ */
 public class Animal {
 
 	private String name;
@@ -30,30 +36,5 @@ public class Animal {
 	 */
 	public void move(int speed) {
 		System.out.println("Animal.move() called. Animal is moving at: " + speed);
-	}
-
-
-	/**
-	 * Getter methods
-	 * @return
-	 */
-	public String getName() {
-		return name;
-	}
-
-	public int getBrain() {
-		return brain;
-	}
-
-	public int getBody() {
-		return body;
-	}
-
-	public int getSize() {
-		return size;
-	}
-
-	public int getWeight() {
-		return weight;
 	}
 }

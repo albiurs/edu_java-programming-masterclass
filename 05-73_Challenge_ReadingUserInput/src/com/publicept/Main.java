@@ -16,6 +16,7 @@ public class Main {
         for(int i=0; i<3; i++) {
 
             System.out.println("Enter number #" + (i+1) +":");
+
             while (!scanner.hasNextInt()) {
                 System.out.println("Invalid number");
                 System.out.println("Enter number #" + (i+1) +":");

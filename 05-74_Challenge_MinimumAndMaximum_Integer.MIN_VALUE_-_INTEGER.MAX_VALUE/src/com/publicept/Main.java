@@ -19,7 +19,8 @@ public class Main {
 
         while (true) {
 
-            System.out.println("Enter number:");
+            System.out.println("Enter number (letter to finish):");
+
             boolean isAnInt = scanner.hasNextInt();
 
             if (isAnInt) {

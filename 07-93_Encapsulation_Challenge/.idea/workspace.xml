@@ -1,8 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ca1b4e3-21e1-453e-9bb5-6ac2983f53ad" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="8ca1b4e3-21e1-453e-9bb5-6ac2983f53ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/05-67_while_do-while_break_continue.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/05-69_GreatestCommonDivisor.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/05-71_Scanner-issue-handling.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05-74_Challenge_MinimumAndMaximum_Integer.MIN_VALUE_-_INTEGER.MAX_VALUE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-78_Constructors/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-78_Constructors/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-78_Constructors/06-78_Constructors.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-80_Inheritance/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-80_Inheritance/06-80_inheritance_Animal.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-80_Inheritance/06-80_inheritance_Dog.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-80_Inheritance/06-80_inheritance_Fish.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-80_Inheritance/06-80_inheritance_Main.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-87.1_06-87_Challenge-Inheritance_solution_Object-RootClass/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06-87.1_06-87_Challenge-Inheritance_solution_Object-RootClass/06-87_inheritance_Object-RootClass.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-90_Composition/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-90_Composition/07-90_Composition_Case.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-90_Composition/07-90_Composition_Main.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-90_Composition/07-90_Composition_PC.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-92_Encapsulation/07-92_encapsulation_EnhancedPlayer.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-92_Encapsulation/07-92_encapsulation_Main.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07-92_Encapsulation/07-92_encapsulation_Player.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-66_Challenge_Sum3And5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-66_Challenge_Sum3And5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-67_While_DoWhile_break_continue/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_Challenge_DigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_Challenge_DigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise15_NumberPalindrome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise15_NumberPalindrome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise16_FirstAndLastDigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise16_FirstAndLastDigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise17_EvenDigitSum/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise17_EvenDigitSum/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise18_SharedDigit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise18_SharedDigit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise19_LastDigitChecker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise19_LastDigitChecker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/GreatestCommonDivisor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/GreatestCommonDivisor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise20_GreatestCommonDivisor/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_AllFactors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_AllFactors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/src/com/publicept/PerfectNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise21_PerfectNumber/src/com/publicept/PerfectNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-69_CodingExercise23_NumberToWords/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-69_CodingExercise23_NumberToWords/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-70_CodingExerciese24_FlourPackProblem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-70_CodingExerciese24_FlourPackProblem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-71_ReadingUserInput_System.in_Scanner_Scanner.nextLine_Scanner.nextInt_Scanner.hasNextInt_Scanner.close_EnterIssuesHandling/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-73_Challenge_ReadingUserInput/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-73_Challenge_ReadingUserInput/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-73_Challenge_ReadingUserInput/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-73_Challenge_ReadingUserInput/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-74_Challenge_MinimumAndMaximum_Integer.MIN_VALUE_-_INTEGER.MAX_VALUE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05-74_Challenge_MinimumAndMaximum_Integer.MIN_VALUE_-_INTEGER.MAX_VALUE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05-74_Challenge_MinimumAndMaximum_Integer.MIN_VALUE_-_INTEGER.MAX_VALUE/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../05-74_Challenge_MinimumAndMaximum_Integer.MIN_VALUE_-_INTEGER.MAX_VALUE/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-75_ClassesPart1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-75_ClassesPart1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-78_Constructors/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-78_Constructors/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-78_Constructors/src/com/publicept/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-78_Constructors/src/com/publicept/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-78_Constructors/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-78_Constructors/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-78_Constructors/src/com/publicept/VipCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-78_Constructors/src/com/publicept/VipCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-79_CodingExercise31_WallArea/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-79_CodingExercise31_WallArea/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-79_CodingExercise32_Point/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-79_CodingExercise32_Point/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-80_Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-80_Inheritance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../06-80_Inheritance/src/com/publicept/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-87.1_06-87_Challenge-Inheritance_solution_Object-RootClass/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-87.1_06-87_Challenge-Inheritance_solution_Object-RootClass/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-87_Challenge_Inheritance/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-87_Challenge_Inheritance/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06-88_CodingExercise35_Cylinder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06-88_CodingExercise35_Cylinder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-90_Composition/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-90_Composition/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Case.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Case.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Dimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Dimensions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/Motherboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-90_Composition/src/com/publicept/pc_hasAFactory/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-91_CompositionPartTwo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-91_CompositionPartTwo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-91_CompositionPartTwo/out/production/07-90_Composition/META-INF/07-90_Composition.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-92_Encapsulation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../07-92_Encapsulation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07-92_Encapsulation/src/com/publicept/EnhancedPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../07-92_Encapsulation/src/com/publicept/EnhancedPlayer.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,22 +89,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1S3iaIHuWT8WLOpSRaygz3enFwT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -60,6 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570798741216</updated>
       <workItem from="1570798742751" duration="4337000" />
+      <workItem from="1580133307556" duration="34000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,19 @@
 package com.publicept;
 
+/**
+ * VipCustomer
+ *
+ * VipCustomer()
+ * VipCustomer(String name, double creditLimit)
+ * VipCustomer(String name, double creditLimit, String email)
+ *
+ * getName()
+ * getCreditLimit()
+ * getEmail()
+ */
 public class VipCustomer {
 
-	/**
+	/*
 	 * Challenge 2: VIP Customer
 	 */
 	// Create a new class VipCustomer
@@ -14,11 +25,18 @@ public class VipCustomer {
 	// create getters only for this using code generation of intellij as setters wont be needed
 	// test and confirm it works.
 
-	String name;
-	double creditLimit;
-	String email;
 
+
+	// == fields ==
+	private String name;
+	private double creditLimit;
+	private String email;
+
+
+
+	// == constructors ==
 	/**
+	 * VipCustomer()
 	 * Empty, default value constructor
 	 */
 	public VipCustomer() {
@@ -27,16 +45,19 @@ public class VipCustomer {
 
 
 	/**
+	 * VipCustomer()
+	 * VipCustomer(String name, double creditLimit)
 	 * Special constructor with 2 params
 	 * @param name
 	 * @param creditLimit
 	 */
-	public  VipCustomer(String name, double creditLimit) {
+	public VipCustomer(String name, double creditLimit) {
 		this(name, creditLimit, "no email");
 	}
 
 
 	/**
+	 * VipCustomer()
 	 * Main Constructor
 	 * @param name
 	 * @param creditLimit
@@ -49,14 +70,28 @@ public class VipCustomer {
 	}
 
 
+
+	// == getters ==
+	/**
+	 * getName()
+	 * @return name
+	 */
 	public String getName() {
 		return name;
 	}
 
+	/**
+	 * getCreditLimit()
+	 * @return credit limit
+	 */
 	public double getCreditLimit() {
 		return creditLimit;
 	}
 
+	/**
+	 * getEmail()
+	 * @return email address
+	 */
 	public String getEmail() {
 		return email;
 	}

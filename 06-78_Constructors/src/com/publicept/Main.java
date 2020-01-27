@@ -1,10 +1,15 @@
 package com.publicept;
 
+/**
+ * Main
+ *
+ * main(String[] args)
+ */
 public class Main {
 
     public static void main(String[] args) {
 
-        /**
+        /*
          * Challenge 1: Bank Account
          */
         // Create a new class for a bank account
@@ -18,8 +23,6 @@ public class Main {
         // You will want to create various code in the Main class (the one created by IntelliJ) to
         // confirm your code is working.
         // Add some System.out.println's in the two methods above as well.
-
-/*
         BankAccount bankAccount = new BankAccount();
 
         bankAccount.setAccountNumber(123456);
@@ -40,10 +43,13 @@ public class Main {
         bankAccount.depositFund(1000.0d);
 
         bankAccount.withdraw(1500.0d);
-*/
+
+        System.out.println();
+        System.out.println("-----------------------");
+        System.out.println();
 
 
-        /**
+        /*
          * Challenge 2: VIP Customer
          */
         // Create a new class VipCustomer
@@ -58,19 +64,19 @@ public class Main {
         VipCustomer vipCustomer2 = new VipCustomer("Bob", 1000.00d);
         VipCustomer vipCustomer3 = new VipCustomer("Joe", 5000.00d, "bob@bob.com");
 
-        System.out.println(vipCustomer1.name);
-        System.out.println(vipCustomer1.creditLimit);
-        System.out.println(vipCustomer1.email);
+        System.out.println(vipCustomer1.getName());
+        System.out.println(vipCustomer1.getCreditLimit());
+        System.out.println(vipCustomer1.getEmail());
         System.out.println();
 
-        System.out.println(vipCustomer2.name);
-        System.out.println(vipCustomer2.creditLimit);
-        System.out.println(vipCustomer2.email);
+        System.out.println(vipCustomer2.getName());
+        System.out.println(vipCustomer2.getCreditLimit());
+        System.out.println(vipCustomer2.getEmail());
         System.out.println();
 
-        System.out.println(vipCustomer3.name);
-        System.out.println(vipCustomer3.creditLimit);
-        System.out.println(vipCustomer3.email);
+        System.out.println(vipCustomer3.getName());
+        System.out.println(vipCustomer3.getCreditLimit());
+        System.out.println(vipCustomer3.getEmail());
         System.out.println();
     }
 }

@@ -1,5 +1,13 @@
 package com.publicept.pc_hasAFactory;
 
+/**
+ * Dimensions
+ * Dimensions(int width, int height, int depth)
+ *
+ * getWidth()
+ * getHeight()
+ * getDepth()
+ */
 public class Dimensions {
 
 	private int width;

@@ -1,31 +1,59 @@
 package com.publicept;
 
+/**
+ * Fish extends Animal
+ * "extends" keyword: inherit from a super class (=parent-class)
+ *
+ */
 public class Fish extends Animal {
 
+
+	// == fields ==
 	private int gills;
 	private int eyes;
 	private int fins;
 
+
+	// == constructors ==
 	public Fish(String name, int size, int weight, int gills, int eyes, int fins) {
+		/* super() must be called first in the extended constructor! */
 		super(name, 1, 1, size, weight);
 		this.gills = gills;
 		this.eyes = eyes;
 		this.fins = fins;
 	}
 
-	private void rest() {
 
+
+	// == override methods ==
+	/**
+	 * Dog.move()
+	 * @param speed
+	 */
+	@Override
+	public void move(int speed) {
+		System.out.println("Fish.move() called");
+		swim(speed);
 	}
 
-	private void moveMuscles() {
 
+
+	// == public methods ==
+	public void rest() {
+		System.out.println("Fish.rest() called");
+		super.move(0);
 	}
 
-	private void moveBackFin() {
-
+	public void moveMuscles() {
+		System.out.println("Fish.moveMuscles() called");
 	}
 
-	private void swim(int speed) {
+	public void moveBackFin() {
+		System.out.println("Fish.moveBackFin() called");
+	}
+
+	public void swim(int speed) {
+		System.out.println("Fish.swim() called");
 		moveMuscles();
 		moveBackFin();
 		super.move(speed);

@@ -1,8 +1,16 @@
 package com.publicept;
 
+/**
+ * EnhancedPlayer
+ * EnhancedPlayer(String name, int health, String weapon)
+ *
+ * loseHealth(int damage)
+ * getHealth()
+ */
 public class EnhancedPlayer {
 
-	/**
+	// == fields ==
+	/*
 	 * private
 	 * not accessible to any class outside
 	 */
@@ -10,6 +18,9 @@ public class EnhancedPlayer {
 	private int health = 0;
 	private String weapon;
 
+
+
+	// == constructors ==
 	public EnhancedPlayer(String name, int health, String weapon) {
 		this.name = name;
 
@@ -20,6 +31,9 @@ public class EnhancedPlayer {
 		this.weapon = weapon;
 	}
 
+
+
+	// == public methods ==
 	public void loseHealth(int damage) {
 		this.health -= damage;
 		if(this.health <= 0) {

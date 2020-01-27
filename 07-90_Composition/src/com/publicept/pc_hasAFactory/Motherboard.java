@@ -1,5 +1,16 @@
 package com.publicept.pc_hasAFactory;
 
+/**
+ * Motherboard
+ * Motherboard(String model, String manufacturer, int ramSlots, int cardSlots, String bios)
+ *
+ * loadProgram(String programName)
+ * getModel()
+ * getManufacturer()
+ * getRamSlots()
+ * getCardSlots()
+ * getBios()
+ */
 public class Motherboard {
 
 	private String model;
