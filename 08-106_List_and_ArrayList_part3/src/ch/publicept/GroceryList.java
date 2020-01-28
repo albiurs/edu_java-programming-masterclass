@@ -3,10 +3,19 @@ package ch.publicept;
 import java.util.ArrayList;
 
 /**
- * ch.publicept.GroceryList
+ * GroceryList
  *
+ * public:
  * addGroceryItem(String item)
  * printGroceryList()
+ * modifyGroceryItem(String newItem)
+ * removeGroceryItem(String itemToRemove)
+ * isItemInList()
+ *
+ * getters:
+ * getGroceryList()
+ *
+ * private:
  * modifyGroceryItem(int i, String newItem)
  * removeGroceryItem(int i)
  * findItem(String searchItem)
@@ -33,6 +42,10 @@ public class GroceryList {
 	 * @param item New item String to add
 	 */
 	public void addGroceryItem(String item) {
+
+		/*
+		 * ArrayList.add(item)
+		 */
 		groceryList.add(item);
 	}
 
@@ -42,20 +55,90 @@ public class GroceryList {
 	 * Print the whole ArrayList to the console.
 	 */
 	public void printGroceryList() {
+		/*
+		 * ArrayList.size()
+		 */
 		System.out.println("You have " + groceryList.size() + " items in your grocery list.");
 
 		for(int i=0; i<groceryList.size(); i++)
+			/*
+			 * ArrayList.get(index)
+			 */
 			System.out.println((i+1) + ". " + groceryList.get(i));
 	}
 
 
 	/**
 	 * modifyGroceryItem()
+	 * @param newItem
+	 */
+	public void modifyGroceryItem(String currentItem, String newItem) {
+		int i = findItem(currentItem);
+		if (i>=0) {
+			modifyGroceryItem(i, newItem);
+			System.out.println("Grocery item " + currentItem + " has been modified to " + newItem);
+		} else if (i<0) {
+			System.out.println("Item " + newItem + " not found.");
+		}
+	}
+
+
+	public void removeGroceryItem(String itemToRemove) {
+		int i = findItem(itemToRemove);
+		if (i>=0) {
+			removeGroceryItem(i);
+			System.out.println("Grocery item " + itemToRemove + " has been removed.");
+		} else if (i<0) {
+			System.out.println("Item " + itemToRemove + " not found.");
+		}
+	}
+
+
+	/**
+	 * isItemInList()
+	 * Find item in the ArrayList
+	 * @param searchItem Item String to search for
+	 * @return true if found, otherwise false
+	 */
+	public boolean isItemInList(String searchItem) {
+		// complicated
+//		int i = findItem(searchItem);
+//		if(i>=0) {
+//			return true;
+//		}
+//		return false;
+
+		/*
+		 * ArrayList.contains(item);
+		 */
+		// best practice
+		return groceryList.contains(searchItem);
+	}
+
+
+
+	// == getters ==
+	/**
+	 * getGroceryList()
+	 * @return groceryList ArrayList<String> Object
+	 */
+	public ArrayList<String> getGroceryList() {
+		return groceryList;
+	}
+
+
+
+	// == private methods ==
+	/**
+	 * modifyGroceryItem()
 	 * Modifies the item at index i.
 	 * @param i index
 	 * @param newItem New String to replace the former item
 	 */
-	public void modifyGroceryItem(int i, String newItem) {
+	private void modifyGroceryItem(int i, String newItem) {
+		/*
+		 * ArrayList.set(index, item)
+		 */
 		groceryList.set(i, newItem); // i = index
 		System.out.println("Grocery item " + (i +1) + " modified to " + newItem);
 	}
@@ -66,31 +149,26 @@ public class GroceryList {
 	 * Removes the item with index i form the ArrayList.
 	 * @param i index
 	 */
-	public void removeGroceryItem(int i) {
-		String theItem = groceryList.get(i); // i = index
+	private void removeGroceryItem(int i) {
+		/*
+		 * ArrayList.remove(index)
+		 */
 		groceryList.remove(i);
-		System.out.println("Grocery item " + (i +1) + " has been removed.");
 	}
 
 
 	/**
 	 * findItem()
-	 * Find item in the ch.publicept.GroceryList
+	 * Find item in the ArrayList
 	 * @param searchItem Item String to search for
-	 * @return Item String is returned if found, otherwise null is returned
+	 * @return returns the item index if found, otherwise -1 is returned
 	 */
-	public String findItem(String searchItem) {
-		// Returns true if this list contains the specified element at least once.
-		// Showcase only
-		boolean itemExists = groceryList.contains(searchItem);
-
+	private int findItem(String searchItem) {
+		/*
+		 * ArrayList.indexOf(item)
+		 */
 		// Returns the index of the first occurrence of the specified element in this list, or
-		// Returns -1 if this list does not contain the element.
-		int i = groceryList.indexOf(searchItem);
-
-		if(i >= 0) {
-			return groceryList.get(i);
-		}
-		return null;
+		// returns -1 if this list does not contain the element.
+		return groceryList.indexOf(searchItem);
 	}
 }

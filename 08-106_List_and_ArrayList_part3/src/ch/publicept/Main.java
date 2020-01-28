@@ -1,6 +1,7 @@
 package ch.publicept;
 
 import javax.swing.*;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -13,6 +14,7 @@ import java.util.Scanner;
  * modifyItem()
  * removeItem()
  * searchForItem()
+ * processArrayList()
  *
  * @author created by Urs Albisser, on 2020-01-27
  * @version 0.1
@@ -63,6 +65,8 @@ public class Main {
 					searchForItem();
 					break;
 				case 6:
+					processArrayList();
+				case 7:
 					quit = true;
 					break;
 				default:
@@ -101,11 +105,11 @@ public class Main {
 	 */
 	public static void modifyItem() {
 		System.out.print("Enter item number: ");
-		int itemNo = scanner.nextInt();
-		scanner.nextLine();
+		String currentItem = scanner.nextLine();
+
 		System.out.print("Enter replacement item: ");
 		String newItem = scanner.nextLine();
-		groceryList.modifyGroceryItem(itemNo-1, newItem);
+		groceryList.modifyGroceryItem(currentItem, newItem);
 	}
 
 
@@ -113,10 +117,9 @@ public class Main {
 	 * removeItem()
 	 */
 	public static void removeItem() {
-		System.out.print("Enter item number to remove: ");
-		int itemNo = scanner.nextInt();
-		scanner.nextLine();
-		groceryList.removeGroceryItem(itemNo-1);
+		System.out.print("Enter an item name to remove: ");
+		String item = scanner.nextLine();
+		groceryList.removeGroceryItem(item);
 	}
 
 
@@ -126,10 +129,45 @@ public class Main {
 	public static void searchForItem() {
 		System.out.print("Item to search for: ");
 		String searchItem = scanner.nextLine();
-		if(groceryList.findItem(searchItem) != null) {
+		if(groceryList.isItemInList(searchItem)) {
 			System.out.println("Found " + searchItem + " in  our grocery list");
 		} else {
 			System.out.println(searchItem + " is not in the shopping list");
 		}
+	}
+
+
+	/**
+	 * processArrayList()
+	 * Showcase of several ArrayList copy and initialization concepts.
+	 * Showcase of ArrayList-to-Array conversion.
+	 */
+	public static void processArrayList() {
+		// 1. create new ArrayList
+		ArrayList<String> newArrayList = new ArrayList<>();
+
+		/*
+		 * ArrayList.addAll(anotherArrayList)
+		 */
+		// 2. copy the full groceryList's entire contents to the new arrayList
+		newArrayList.addAll(groceryList.getGroceryList());
+
+		/*
+		 * ArrayList<String> arrayList = new ArrayList<>(initializeWithAnotherArrayList);
+		 */
+		// initialize the ArrayList directly with the groceryList's contents
+		ArrayList<String> nextArrayList = new ArrayList<>(groceryList.getGroceryList());
+
+		/*
+		 * String[] array = new String[anyArray.size()];
+		 */
+		// copy the groceryList's entire contents to a regular array
+		// initialize the array directly with the groceryList's size
+		String[] myArray = new String[groceryList.getGroceryList().size()];
+
+		/*
+		 * ArrayList.toArray(arrayToConvert)
+		 */
+		myArray = groceryList.getGroceryList().toArray(myArray);
 	}
 }
