@@ -2,6 +2,9 @@ package ch.publicept;
 
 /**
  * Main
+ * main(String[] args)
+ *
+ * printArray(int[] array)
  *
  * @author created by Urs Albisser, on 2019-12-29
  * @version 0.0.1
@@ -10,15 +13,16 @@ public class Main {
 
 	/**
 	 * main()
-	 * @param args
+	 * Test Arrays
+	 * @param args args
 	 */
 	public static void main(String[] args) {
 
-//		int[] myIntArray = new int[25]; // declare and initialize array with 25 elements
-//		System.out.println("myIntArray.length = 25 Elements. = " + myIntArray.length);
+		int[] myFirstIntArray = new int[25]; // declare and initialize array with 25 elements
+		System.out.println("myFirstIntArray.length = " + myFirstIntArray.length); // myFirstIntArray.length = 25
 
 		int[] myIntArray = {1,2,3,4,5,6,7,8,9,10}; // declare and initialize array with 10 initialized elements
-//		myIntArray[5] = 50;				// element 6 = 50
+		myIntArray[5] = 50;				// element 6 = 50
 		double[] myDoubleArray = new double[10]; // declare and initialize array with 10 elements
 
 		System.out.println("Element 0 in Array: " + myIntArray[0]); // 1
@@ -29,7 +33,7 @@ public class Main {
 		// initialize myIntArray using a for loop
 //		for(int i=0; i<10; i++) {
 		for(int i=0; i<myIntArray.length; i++) {
-			myIntArray[i] = i*10;
+			myIntArray[i] = i * 10;
 		}
 
 		printArray(myIntArray);	// Print myIntArray using the method printArray

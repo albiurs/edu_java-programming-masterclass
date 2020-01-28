@@ -2,7 +2,7 @@ package com.publicept.car;
 
 public class Car {
 
-	/**
+	/*
 	 * Polymorphism Challenge
 	 */
 	// We are going to go back to the car analogy.
@@ -32,7 +32,7 @@ public class Car {
 		this.engine = true;
 	}
 
-	/**
+	/*
 	 * getClass().getSimpleName()
 	 * ...used to get the actual class name instead of hard-coded name
 	 */

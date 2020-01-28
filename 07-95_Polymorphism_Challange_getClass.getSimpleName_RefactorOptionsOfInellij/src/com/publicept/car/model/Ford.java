@@ -11,7 +11,7 @@ public class Ford extends Car {
 		this.trunk = trunk;
 	}
 
-	/**
+	/*
 	 * getClass().getSimpleName()
 	 * ...used to get the actual class name instead of hard-coded name
 	 */

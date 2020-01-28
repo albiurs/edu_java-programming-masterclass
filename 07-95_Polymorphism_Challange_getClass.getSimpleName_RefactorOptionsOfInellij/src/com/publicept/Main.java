@@ -5,16 +5,26 @@ import com.publicept.car.model.Corvette;
 import com.publicept.car.model.Ford;
 import com.publicept.car.model.Mitsubishi;
 
-/**
+/*
+ * ===============================================================
  * This training video shows lots of refactor options in IntelliJ:
  * Video 07-95 @ 9:49 until the end of the video...
+ * ===============================================================
  */
 
+/**
+ * Main
+ * main(String[] args)
+ */
 public class Main {
 
+    /**
+     * main()
+     * @param args args
+     */
     public static void main(String[] args) {
 
-        /**
+        /*
          * Polymorphism Challenge
          */
         // We are going to go back to the car analogy.

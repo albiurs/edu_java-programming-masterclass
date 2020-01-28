@@ -11,9 +11,9 @@ public class Corvette extends Car {
 		this.rearSpoiler = true;
 	}
 
-	/**
+	/*
 	 * getClass().getSimpleName()
-	 * ...used to get the actual class name instead of hard-coded name
+	 * ...get the actual class name instead of hard-coded name
 	 */
 	@Override
 	public String startEngine() {

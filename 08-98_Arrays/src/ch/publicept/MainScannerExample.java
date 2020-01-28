@@ -4,21 +4,33 @@ import java.util.Scanner;
 
 /**
  * MainScannerExample
+ * public static void main(String[] args)
+ * Enter
+ *
+ * getIntegers(int numberOfArrayElements)
+ * getAverage(int[] array)
  *
  * @author created by Urs Albisser, on 2019-12-30
  * @version 0.0.1
  */
 public class MainScannerExample {
 
+
+
+	// == fields ==
 	private static Scanner scanner = new Scanner(System.in);
+
+
 
 	/**
 	 * main()
-	 * @param args
+	 *
+	 * @param args args
 	 */
 	public static void main(String[] args) {
 
-		int[] myIntegers = getIntegers(5);
+		// initialize array = new int[5] by using the Scanner
+		int[] myIntegers = getIntegerArrayByScanner(5);
 
 		// print array values
 		for(int i=0; i<myIntegers.length; i++) {
@@ -29,24 +41,29 @@ public class MainScannerExample {
 		System.out.println("The average is " + getAverage(myIntegers));
 	}
 
+
+
 	/**
 	 * getIntegers()
-	 * Initialize array using the Scanner
-	 * @param numberOfArrayElements	Length of array
-	 * @return						Initialized array
+	 * Initialize array with individual numbers using the Scanner.
+	 * @param arrayLength Array length
+	 * @return Initialized array[]
 	 */
-	public static int[] getIntegers(int numberOfArrayElements) {
+	public static int[] getIntegerArrayByScanner(int arrayLength) {
 
-		System.out.println("Enter " + numberOfArrayElements + " integer values.\r");
-		int[] values = new int[numberOfArrayElements];
+		int[] array = new int[arrayLength];
 
-		for(int i=0; i<values.length; i++) {
+		System.out.println("Enter " + arrayLength + " integer values...\r");
+
+		for(int i=0; i<array.length; i++) {
 			System.out.print("Enter value " + (i+1) + ": ");
-			values[i] = scanner.nextInt();
+			array[i] = scanner.nextInt();
 		}
 
-		return values;
+		return array;
 	}
+
+
 
 	/**
 	 * getAverage()

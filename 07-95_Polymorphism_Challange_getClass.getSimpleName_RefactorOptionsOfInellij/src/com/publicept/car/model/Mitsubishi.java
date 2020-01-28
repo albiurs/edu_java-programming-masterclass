@@ -11,7 +11,7 @@ public class Mitsubishi extends Car {
 		this.loadArea = loadArea;
 	}
 
-	/**
+	/*
 	 * getClass().getSimpleName()
 	 * ...used to get the actual class name instead of hard-coded name
 	 */
