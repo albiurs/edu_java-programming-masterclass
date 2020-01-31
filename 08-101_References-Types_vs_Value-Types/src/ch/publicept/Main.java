@@ -22,7 +22,7 @@ public class Main {
 	public static void main(String[] args) {
 
 
-		// == reference of primitive type ==
+		// == value types (reference of primitive type) ==
 		int myIntValue = 10;
 		int anotherIntValue = myIntValue;	// make a copy of myIntValue (= independent variable)
 
