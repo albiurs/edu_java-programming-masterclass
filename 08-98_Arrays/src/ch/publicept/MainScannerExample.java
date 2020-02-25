@@ -22,6 +22,7 @@ public class MainScannerExample {
 
 
 
+	// == public methods ==
 	/**
 	 * main()
 	 *
@@ -53,7 +54,7 @@ public class MainScannerExample {
 
 		int[] array = new int[arrayLength];
 
-		System.out.println("Enter " + arrayLength + " integer values...\r");
+		System.out.println("Enter " + arrayLength + " integer values...\r"); // \r = next line
 
 		for(int i=0; i<array.length; i++) {
 			System.out.print("Enter value " + (i+1) + ": ");
