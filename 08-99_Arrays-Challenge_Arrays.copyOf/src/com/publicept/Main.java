@@ -15,6 +15,7 @@ Arrays Challenge
 // you will have to figure out how to copy the array elements from the passed array into a new
 // array and sort them and return the new sorted array.
 
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -79,27 +80,35 @@ public class Main {
 	 */
 	public static int[] sortIntegers(int[] array){
 
-		int[] myArray = new int[array.length+1];
-//		System.out.println("myArray.length = " + myArray.length);
+//		int[] sortedArray = new int[array.length+1];
+//
+//		for(int i=0; i<array.length; i++) {
+//			sortedArray[i] = array[i];
+//		}
 
-		for(int i=0; i<array.length; i++) {
-			myArray[i] = array[i];
-		}
-		myArray[array.length] = Integer.MIN_VALUE;
+		/*
+		Arrays.copyOf()
+		 */
+		int[] sortedArray = Arrays.copyOf(array, array.length+1);
+
+		sortedArray[array.length] = Integer.MIN_VALUE;
 
 
+		/*
+		My solution
+		 */
 		int counter = 0;
 
-		while (counter < myArray.length) {
+		while (counter < sortedArray.length) {
 
-			for(int i=0; i<myArray.length-1; i++) {
+			for(int i=0; i<sortedArray.length-1; i++) {
 
 				int swap;
 
-				if(myArray[i] < myArray[i+1]) {
-					swap = myArray[i];
-					myArray[i] = myArray[i+1];
-					myArray[i+1] = swap;
+				if(sortedArray[i] < sortedArray[i+1]) {
+					swap = sortedArray[i];
+					sortedArray[i] = sortedArray[i+1];
+					sortedArray[i+1] = swap;
 
 					counter = 0;
 				}
@@ -108,8 +117,30 @@ public class Main {
 			counter ++;
 		}
 
+		/*
+		Tim's solution
+		 */
+//		boolean flag = true;
+//
+//		while (flag) {
+//
+//			flag = false;
+//
+//			for(int i=0; i<sortedArray.length-1; i++) {
+//
+//				int swap;
+//
+//				if(sortedArray[i] < sortedArray[i+1]) {
+//					swap = sortedArray[i];
+//					sortedArray[i] = sortedArray[i+1];
+//					sortedArray[i+1] = swap;
+//
+//					flag = true;
+//				}
+//			}
+//		}
 
-		return myArray;
+		return sortedArray;
 	}
 
 
