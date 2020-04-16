@@ -59,7 +59,7 @@ public class Main {
 		System.out.println("after modify anotherIntArray " + Arrays.toString(anotherIntArray)); // is [2, 0, 0, 0, 0]
 		System.out.println();
 
-		// de-reference array by calling a method
+		// de-reference the array within another method is not possible (see comments in method)
 		dereferenceArray(myIntArray);
 		System.out.println("after de-referencing myIntArray "
 				+ Arrays.toString(myIntArray));			// is [2, 0, 0, 0, 0]
@@ -95,6 +95,11 @@ public class Main {
 	 */
 	private static void dereferenceArray(int[] array) {
 
-		array = new int[] {1, 2, 3, 4, 5};	// de-referencing the reference with "new" -> new object in memory
+		// de-referencing the reference of the parameter "array" with "new"
+		// but NOT the original reference!!!
+		// -> new object in memory
+		// -> 'array' is never used, because we created a new array,
+		// so the parameter is now pointing to a different array.
+		array = new int[] {1, 2, 3, 4, 5};
 	}
 }
