@@ -19,8 +19,15 @@ import java.util.Scanner;
 
 /**
  * Main
+ * Challenge to find the minimum integer number within an array.
  *
- * @author created by Vorname Nachname, on 2020-04-17
+ * main()
+ * findMin()
+ * readIntegersArray()
+ * readArrayLength()
+ * readIntegerByScanner()
+ *
+ * @author created by Urs Albisser, on 2020-04-17
  * @version 0.1
  */
 public class Main {
@@ -30,9 +37,8 @@ public class Main {
 	// == fields ==
 	private static Scanner scanner = new Scanner(System.in);
 	private static int arrayLength;
-//	private static int[] numbersArray = new	int[arrayLength];
-//	private static int[] tempArray;
-//	private static int[] arraySorted;
+	private static int[] numbersArray;
+	private static int minNumber;
 
 
 
@@ -43,6 +49,34 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
+		// get numbers array
+		numbersArray = readIntegersArray();
+
+		// find minimum number in array
+		minNumber = findMin(numbersArray);
+
+		// print minimum number
+		System.out.println("The minimum Number in the array is: " + minNumber);
+	}
+
+
+	/**
+	 * findMin()
+	 * Find the smallest number in an array.
+	 * @param array int array to be checked
+	 * @return		miinimum number in array
+	 */
+	public static int findMin(int[] array) {
+
+		int minNumber = Integer.MAX_VALUE;
+
+		for(int i=0; i<array.length; i++) {
+			if(i<minNumber) {
+				minNumber = array[i];
+			}
+		}
+
+		return minNumber;
 	}
 
 
@@ -68,7 +102,7 @@ public class Main {
 	 */
 	public static int readArrayLength() {
 
-		// get array length
+		// read array length from console
 		while (true) {
 
 			System.out.println("How many numbers do you want to sort?");
