@@ -64,7 +64,7 @@ public class Main {
 	 * findMin()
 	 * Find the smallest number in an array.
 	 * @param array int array to be checked
-	 * @return		miinimum number in array
+	 * @return		minimum number in array
 	 */
 	public static int findMin(int[] array) {
 
