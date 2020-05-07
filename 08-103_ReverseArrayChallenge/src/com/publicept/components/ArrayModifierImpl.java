@@ -2,7 +2,7 @@ package com.publicept.components;
 
 /**
  * ArrayModifierImpl
- * Provides Methods to alter arrays.
+ * ArrayModifier implementation which provides Methods to alter arrays.
  *
  * reverseArray()
  *
@@ -11,7 +11,23 @@ package com.publicept.components;
  */
 public class ArrayModifierImpl implements ArrayModifier {
 
+	// == constructors ==
+
+	/**
+	 * ArrayModifierImpl()
+	 */
+	public ArrayModifierImpl() {
+		// do nothing
+	}
+
 	// == public methods ==
+
+	/**
+	 * reverseArray()
+	 * Reverse the order of integers in the array.
+	 * @param array Array to be reversed
+	 * @return reversed array
+	 */
 	@Override
 	public int[] reverseArray(int[] array) {
 

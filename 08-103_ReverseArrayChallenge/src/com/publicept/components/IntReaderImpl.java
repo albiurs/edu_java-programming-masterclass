@@ -5,6 +5,14 @@ import java.util.Scanner;
 
 /**
  * IntReaderImpl
+ * IntReader implementation which provides methods to read integers by the Scanner() within the console.
+ *
+ * public methods:
+ * readIntegerArray()
+ * readIntegerByScanner()
+ *
+ * private methods:
+ * readArrayLength()
  *
  * @author created by Urs Albisser, on 2020-05-02
  * @version 0.1
@@ -13,7 +21,7 @@ public class IntReaderImpl implements IntReader{
 
 
 
-	// === fields ===
+	// == fields ==
 	private static Scanner scanner = new Scanner(System.in);
 	private static int arrayLength;
 
@@ -25,7 +33,7 @@ public class IntReaderImpl implements IntReader{
 	}
 
 
-	// === public methods ===
+	// == public methods ==
 	/**
 	 * readIntegerArray()
 	 * @return Initialized and filled array.

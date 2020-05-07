@@ -9,10 +9,8 @@ Reverse Array Challenge:
 -For example, if the array is {1, 2, 3, 4, 5}, then the reversed array is {5, 4, 3, 2, 1}.
  */
 
-import com.publicept.components.ArrayModifier;
-import com.publicept.components.ArrayModifierImpl;
-import com.publicept.components.IntReader;
-import com.publicept.components.IntReaderImpl;
+import com.publicept.service.ArrayService;
+import com.publicept.service.ArrayServiceImpl;
 
 /**
  * Main
@@ -22,83 +20,21 @@ import com.publicept.components.IntReaderImpl;
  */
 public class Main {
 
-
-
-	// === fields ===
-//	IntReaderImpl integerReader = new IntReaderImpl();
-//	private static Scanner scanner = new Scanner(System.in);
-//	private static int arrayLength;
-//	private int[] numbersArray;
-
-
-
-	// === public methods ===
 	/**
 	 * main()
+	 *
 	 * @param args
 	 */
 	public static void main(String[] args) {
 
-		IntReader intReader = new IntReaderImpl();
-		ArrayModifier arrayModifier = new ArrayModifierImpl();
+		/*
+		Run Reverse Array Test
+		 */
+		ArrayService arrayService = new ArrayServiceImpl();
 
-		int[] numbersArray;
-		int[] reverseArray;
-
-		numbersArray = intReader.readIntegerArray();
-
-		reverseArray = arrayModifier.reverseArray(numbersArray);
-
-		for(int i=0; i<numbersArray.length; i++) {
-			System.out.print("numbersArray: " + numbersArray[i] + " ");
-		}
-		System.out.println();
-
-		for(int i=0; i<reverseArray.length; i++) {
-			System.out.print("reverseArray: " + reverseArray[i] + " ");
-		}
-		System.out.println();
-
+		arrayService.setInitNumbersArray();
+		arrayService.setReverseArray();
+		arrayService.printInitNumbersArray();
+		arrayService.printReverseIntegerArray();
 	}
-
-
-//	/**
-//	 * readIntegersArray()
-//	 * @return Initialized and filled array.
-//	 */
-//	public static int[] readIntegersArray() {
-//
-//		int[] array = new int[readArrayLength()];
-//
-//		for(int i=0; i<arrayLength; i++) {
-//			System.out.println("Please enter number " + (i+1) );
-//			array[i] = readIntegerByScanner();
-//		}
-//		return array;
-//	}
-//
-//
-//	/**
-//	 * readArrayLength()
-//	 * @return Array length
-//	 */
-//	public static int readArrayLength() {
-//
-//		// read array length from console
-//		while (true) {
-//
-//			System.out.println("How many numbers do you want to sort?");
-//			arrayLength = readIntegerByScanner();
-//
-//			if(arrayLength > 1) {
-//				break;
-//			} else if(arrayLength == 1) {
-//				System.out.println("Might not make sense to read only one number. But go ahead...");
-//				break;
-//			}
-//			System.out.println("Number must be positive!");
-//		}
-//
-//		return arrayLength;
-//	}
 }

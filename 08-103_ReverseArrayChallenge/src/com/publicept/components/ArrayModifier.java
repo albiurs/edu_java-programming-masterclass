@@ -2,7 +2,7 @@ package com.publicept.components;
 
 /**
  * ArrayModifier
- * Array modifier interface
+ * Array modifier interface.
  *
  * @author created by Urs Albisser, on 2020-05-06
  * @version 0.1
