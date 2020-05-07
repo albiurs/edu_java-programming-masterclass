@@ -9,10 +9,10 @@ Reverse Array Challenge:
 -For example, if the array is {1, 2, 3, 4, 5}, then the reversed array is {5, 4, 3, 2, 1}.
  */
 
-import com.publicept.service.ArrayModifier;
-import com.publicept.service.ArrayModifierImpl;
-import com.publicept.service.IntReader;
-import com.publicept.service.IntReaderImpl;
+import com.publicept.components.ArrayModifier;
+import com.publicept.components.ArrayModifierImpl;
+import com.publicept.components.IntReader;
+import com.publicept.components.IntReaderImpl;
 
 /**
  * Main
@@ -45,7 +45,7 @@ public class Main {
 		int[] numbersArray;
 		int[] reverseArray;
 
-		numbersArray = intReader.readIntegersArray();
+		numbersArray = intReader.readIntegerArray();
 
 		reverseArray = arrayModifier.reverseArray(numbersArray);
 

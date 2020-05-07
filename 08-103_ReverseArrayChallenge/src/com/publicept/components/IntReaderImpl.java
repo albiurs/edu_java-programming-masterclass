@@ -1,4 +1,4 @@
-package com.publicept.service;
+package com.publicept.components;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -18,6 +18,7 @@ public class IntReaderImpl implements IntReader{
 	private static int arrayLength;
 
 
+
 	// == constructors ==
 	public IntReaderImpl() {
 		// do nothing
@@ -26,11 +27,11 @@ public class IntReaderImpl implements IntReader{
 
 	// === public methods ===
 	/**
-	 * readIntegersArray()
+	 * readIntegerArray()
 	 * @return Initialized and filled array.
 	 */
 	@Override
-	public int[] readIntegersArray() {
+	public int[] readIntegerArray() {
 
 		int[] array = new int[readArrayLength()];
 
