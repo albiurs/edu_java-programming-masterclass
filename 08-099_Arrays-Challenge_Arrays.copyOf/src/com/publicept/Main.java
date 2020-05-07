@@ -15,6 +15,7 @@ Arrays Challenge
 // you will have to figure out how to copy the array elements from the passed array into a new
 // array and sort them and return the new sorted array.
 
+import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -48,7 +49,7 @@ public class Main {
 		System.out.println(Integer.MIN_VALUE);
 		System.out.println(Integer.MAX_VALUE);
 		// initialize array
-		numbersArray = getArray();
+		numbersArray = readIntegersArray();
 		tempArray = new int[arrayLength+1];
 		arraySorted = new int[arrayLength];
 
@@ -79,27 +80,35 @@ public class Main {
 	 */
 	public static int[] sortIntegers(int[] array){
 
-		int[] myArray = new int[array.length+1];
-//		System.out.println("myArray.length = " + myArray.length);
+//		int[] sortedArray = new int[array.length+1];
+//
+//		for(int i=0; i<array.length; i++) {
+//			sortedArray[i] = array[i];
+//		}
 
-		for(int i=0; i<array.length; i++) {
-			myArray[i] = array[i];
-		}
-		myArray[array.length] = Integer.MIN_VALUE;
+		/*
+		Arrays.copyOf()
+		 */
+		int[] sortedArray = Arrays.copyOf(array, array.length+1);
+
+		sortedArray[array.length] = Integer.MIN_VALUE;
 
 
+		/*
+		My solution
+		 */
 		int counter = 0;
 
-		while (counter < myArray.length) {
+		while (counter < sortedArray.length) {
 
-			for(int i=0; i<myArray.length-1; i++) {
+			for(int i=0; i<sortedArray.length-1; i++) {
 
 				int swap;
 
-				if(myArray[i] < myArray[i+1]) {
-					swap = myArray[i];
-					myArray[i] = myArray[i+1];
-					myArray[i+1] = swap;
+				if(sortedArray[i] < sortedArray[i+1]) {
+					swap = sortedArray[i];
+					sortedArray[i] = sortedArray[i+1];
+					sortedArray[i+1] = swap;
 
 					counter = 0;
 				}
@@ -108,8 +117,30 @@ public class Main {
 			counter ++;
 		}
 
+		/*
+		Tim's solution
+		 */
+//		boolean flag = true;
+//
+//		while (flag) {
+//
+//			flag = false;
+//
+//			for(int i=0; i<sortedArray.length-1; i++) {
+//
+//				int swap;
+//
+//				if(sortedArray[i] < sortedArray[i+1]) {
+//					swap = sortedArray[i];
+//					sortedArray[i] = sortedArray[i+1];
+//					sortedArray[i+1] = swap;
+//
+//					flag = true;
+//				}
+//			}
+//		}
 
-		return myArray;
+		return sortedArray;
 	}
 
 
@@ -129,37 +160,37 @@ public class Main {
 
 
 	/**
-	 * getArray()
+	 * readIntegersArray()
 	 * @return Initialized and filled array.
 	 */
-	public static int[] getArray() {
+	public static int[] readIntegersArray() {
 
-		int[] array = new int[getArrayLength()];
+		int[] array = new int[readArrayLength()];
 
 		for(int i=0; i<arrayLength; i++) {
 			System.out.println("Please enter number " + (i+1) );
-			array[i] = getIntegerByScanner();
+			array[i] = readIntegerByScanner();
 		}
 		return array;
 	}
 
 
 	/**
-	 * getArrayLength()
+	 * readArrayLength()
 	 * @return Array length
 	 */
-	public static int getArrayLength() {
+	public static int readArrayLength() {
 
 		// get array length
 		while (true) {
 
 			System.out.println("How many numbers do you want to sort?");
-			arrayLength = getIntegerByScanner();
+			arrayLength = readIntegerByScanner();
 
 			if(arrayLength > 1) {
 				break;
 			} else if(arrayLength == 1) {
-				System.out.println("Might not make sense to sort only one number. But go ahead...");
+				System.out.println("Might not make sense to read only one number. But go ahead...");
 				break;
 			}
 			System.out.println("Number must be positive!");
@@ -170,10 +201,10 @@ public class Main {
 
 
 	/**
-	 * getInteger()
+	 * readIntegerByScanner()
 	 * @return Integer number
 	 */
-	public static int getIntegerByScanner() {
+	public static int readIntegerByScanner() {
 
 		int i;
 

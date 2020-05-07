@@ -18,7 +18,11 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 
-		int[] myFirstIntArray = new int[25]; // declare and initialize array with 25 elements
+		int[] myFirstIntArray = new int[25];	// declare and initialize array with 25 elements with default values
+												// default values:
+												// int = 0;
+												// boolean = false;
+												// String and other Objects = null
 		System.out.println("myFirstIntArray.length = " + myFirstIntArray.length); // myFirstIntArray.length = 25
 
 		int[] myIntArray = {1,2,3,4,5,6,7,8,9,10}; // declare and initialize array with 10 initialized elements
