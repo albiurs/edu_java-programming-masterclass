@@ -105,6 +105,14 @@ public class ArrayServiceImpl implements ArrayService {
 
 	@Override
 	public void setReverseArray(int[] numbersArray) {
+		/*
+		 * arrayModifier.reverseArray(numbersArray)
+		 * -> array.clone()
+		 * Arrays can be passed to a method just like normal variables. When an array is passed to a method as an argument,
+		 * actually the address of the array in the memory is passed (reference).
+		 * Therefore, any changes to this array within the method will affect the original array.
+		 * Hence, the passed array must be cloned to avoid overriding the original array passed as parameter.
+		 */
 		this.reverseArray = arrayModifier.reverseArray(numbersArray);
 	}
 }

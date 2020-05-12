@@ -50,6 +50,13 @@ public class ArrayModifierImpl implements ArrayModifier {
 	 */
 	public int[] reverseArray(int[] array) {
 
+		/*
+		* array.clone()
+		* Arrays can be passed to a method just like normal variables. When an array is passed to a method as an argument,
+		* actually the address of the array in the memory is passed (reference).
+		* Therefore, any changes to this array within the method will affect the original array.
+		* Hence, the passed array must be cloned to avoid overriding the original array passed as parameter.
+		*/
 		int[] reverseArray = array.clone();
 
 		int maxIndex = reverseArray.length -1;
