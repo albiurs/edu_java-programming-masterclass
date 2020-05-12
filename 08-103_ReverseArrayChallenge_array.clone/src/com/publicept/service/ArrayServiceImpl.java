@@ -53,8 +53,9 @@ public class ArrayServiceImpl implements ArrayService {
 	@Override
 	public void printReverseIntegerArray() {
 
+		System.out.print("reverseArray: ");
 		for(int i=0; i<reverseArray.length; i++) {
-			System.out.print("reverseArray: " + reverseArray[i] + " ");
+			System.out.print(reverseArray[i] + " ");
 		}
 		System.out.println();
 	}
@@ -66,8 +67,9 @@ public class ArrayServiceImpl implements ArrayService {
 	@Override
 	public void printInitNumbersArray() {
 
+		System.out.print("initNumbersArray: ");
 		for(int i = 0; i< initNumbersArray.length; i++) {
-			System.out.print("initNumbersArray: " + initNumbersArray[i] + " ");
+			System.out.print(initNumbersArray[i] + " ");
 		}
 		System.out.println();
 	}
@@ -103,6 +105,6 @@ public class ArrayServiceImpl implements ArrayService {
 
 	@Override
 	public void setReverseArray(int[] numbersArray) {
-		reverseArray = arrayModifier.reverseArray(getInitNumbersArray());
+		this.reverseArray = arrayModifier.reverseArray(numbersArray);
 	}
 }
