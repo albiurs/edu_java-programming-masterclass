@@ -5,6 +5,8 @@ import com.publicept.components.ArrayModifierImpl;
 import com.publicept.components.IntReader;
 import com.publicept.components.IntReaderImpl;
 
+import java.util.Arrays;
+
 /**
  * ArrayServiceImpl
  *
@@ -53,10 +55,12 @@ public class ArrayServiceImpl implements ArrayService {
 	@Override
 	public void printReverseIntegerArray() {
 
-		System.out.print("reverseArray: ");
-		for(int i=0; i<reverseArray.length; i++) {
-			System.out.print(reverseArray[i] + " ");
-		}
+		System.out.print("reverseArray: " + Arrays.toString(reverseArray));
+
+//		System.out.print("reverseArray: ");
+//		for(int i=0; i<reverseArray.length; i++) {
+//			System.out.print(reverseArray[i] + " ");
+//		}
 		System.out.println();
 	}
 
@@ -67,10 +71,12 @@ public class ArrayServiceImpl implements ArrayService {
 	@Override
 	public void printInitNumbersArray() {
 
-		System.out.print("initNumbersArray: ");
-		for(int i = 0; i< initNumbersArray.length; i++) {
-			System.out.print(initNumbersArray[i] + " ");
-		}
+		System.out.print("initNumbersArray: " + Arrays.toString(initNumbersArray));
+
+//		System.out.print("initNumbersArray: ");
+//		for(int i = 0; i< initNumbersArray.length; i++) {
+//			System.out.print(initNumbersArray[i] + " ");
+//		}
 		System.out.println();
 	}
 
