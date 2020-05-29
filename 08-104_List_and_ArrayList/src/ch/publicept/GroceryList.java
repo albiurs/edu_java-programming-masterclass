@@ -42,10 +42,10 @@ public class GroceryList {
 	 * Print the whole ArrayList to the console.
 	 */
 	public void printGroceryList() {
-		System.out.println("You have " + groceryList.size() + " items in your grocery list.");
+		System.out.println("You have " + groceryList.size() + " items in your grocery list.");	// access ArrayList size
 
 		for(int i=0; i<groceryList.size(); i++)
-			System.out.println((i+1) + ". " + groceryList.get(i));
+			System.out.println((i+1) + ". " + groceryList.get(i));	// access an ArrayList element
 	}
 
 
@@ -56,7 +56,7 @@ public class GroceryList {
 	 * @param newItem New String to replace the former item
 	 */
 	public void modifyGroceryItem(int i, String newItem) {
-		groceryList.set(i, newItem); // i = index
+		groceryList.set(i, newItem); // i = index of item in ArrayList
 		System.out.println("Grocery item " + (i +1) + " modified to " + newItem);
 	}
 
@@ -69,7 +69,7 @@ public class GroceryList {
 	public void removeGroceryItem(int i) {
 		String theItem = groceryList.get(i); // i = index
 		groceryList.remove(i);
-		System.out.println("Grocery item " + (i +1) + " has been removed.");
+		System.out.println("Grocery item " + (i +1) + ": " + theItem + " has been removed.");
 	}
 
 
@@ -88,9 +88,10 @@ public class GroceryList {
 		// Returns -1 if this list does not contain the element.
 		int i = groceryList.indexOf(searchItem);
 
+		// return item only if it exists in the ArrayList
 		if(i >= 0) {
 			return groceryList.get(i);
 		}
-		return null;
+		return null; // return null if it does not exist
 	}
 }
